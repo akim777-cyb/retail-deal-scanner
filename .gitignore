@@ -1,0 +1,10 @@
+# Secrets never go in this repo.
+*key*.txt
+.env
+*.key
+
+# Working files: page reads before they are ingested (the ledger keeps what matters)
+runs/
+__pycache__/
+*.pyc
+~$*.xlsx

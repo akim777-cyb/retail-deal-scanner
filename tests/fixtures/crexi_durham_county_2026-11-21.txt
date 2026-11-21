@@ -1,0 +1,47 @@
+main|Imperial Center Business Park|Slater Road at Parliament Court|Durham|NC|27703|$11/SF|Retail, Land||||Land • 1.92 acres|
+main|112 W Main St|112 W Main St|Durham|NC|27701|$2,950,000|Retail, Office, Mixed Use||9250|||
+main|112 N Mineral Springs Rd|112 North Mineral Springs Road|Durham|NC|27703|$195,000|Retail, Office||820|||
+main|901 E Trinity Ave|901 E Trinity Ave|Durham|NC|27704|$650,000|Retail, Mixed Use||||Auto Body Shop in Durham|
+main|Topgolf / Raleigh-Durham, NC / 20-Yr Abs NNN / 7.00% CAP|4901 Topgolf Wy|Durham|NC|27703|$36,820,000|Hospitality, Retail, Special Purpose|7.00%|||7% CAP - High Growth Raleigh, NC Market|
+main|Kress Building|101 & 103 W Main St|Durham|NC|27701|$1,171,000|Retail, Office||4574||Commercial Condo in Historic Kress Building, Downtown Durham|
+main|Fondo Dos Portfolio|4010 Durham-Chapel Hill Blvd|Durham|NC|27707|$14,374,000|Retail|6.00%|23813||3 LOCATIONS|
+main|1612 Carpenter Fletcher|1612 Carpenter Fletcher Rd|Durham|NC|27713|$1,695,000|Retail, Office, Industrial||6018||Turnkey Durham Flex For Sale|
+main|1023 S Miami BLVD|1023 S Miami Blvd|Durham|NC|27703|$3,070,000|Retail, Industrial||||Standalone Flex Building For Sale or Lease|
+main|Chipotle (Raleigh-Durham MSA)|2115 NC-54|Durham|NC|27713|$3,776,000|Retail|4.90%|2763|||
+main|116 N Mineral Springs Rd|112 N Mineral Springs Rd|Durham|NC|27703|Unpriced|Retail, Office||||2 LOCATIONS|
+main|6453 North Carolina 55|6453 North Carolina 55|Durham|NC|27713|$3,900,000|Retail, Office, Special Purpose||||Vacant RTP Area Daycare For Sale or Lease|
+main|Starbucks, AT&T, Eyemart & WingStop|4100 Durham-Chapel Hill Blvd|Durham|NC|27707|$4,424,000|Retail|6.00%|8297|||
+main|Established Indian Grocery Store Business -WAR108||Durham|NC|27701|$140,000|Retail|||||
+main|4511 Hopson Road|4511 Hopson Rd|Morrisville|NC|27560|$575,000|Retail||2093|||
+main|4017 Angier Ave|4017 Angier Ave|Durham|NC|27703|$550,000|Retail, Land||||Great location corner lot in Durham|
+main|1501 Glenn School Rd|1501 Glenn School Rd|Durham|NC|27704|Unpriced|Retail, Land|||||
+main|5600 S Miami Blvd|5600 S Miami Blvd|Morrisville|NC|27560|Unpriced|Retail||23000|||
+main|520 N Mangum|514, 518,520 N Mangum St|Durham|NC|27701|$5,200,000|Retail, Office, Land||||Attractive downtown Durham location|
+main|4618 Hillsborough Road|4618 Hillsborough Road|Durham|NC|27705|$1,600,000|Retail, Land||||Excellent proximity to retail centers including Food Lion|
+main|US-70 Assemblage|1404, 1410, 1412, 1418, 1426 & 1500 S. Miami Blvd|Durham|NC|27703|$8,500,000|Land, Retail||22998||±7.79 acres & ±22,998 SF Auto Service Buildings|
+main|1426 & 1500 S Miami Blvd, 1408 Marly Drive|1426 & 1500 S Miami Blvd, 1408 Marly Drive|Durham|NC|27703|$5,995,000|Retail, Industrial||22998||Automotive Sales/Service Buildings (22,998 SF Total) & 0.2-Acre Parking Lot|
+main|SW Durham Development Opportunity|1426 NC-54|Durham|NC|27707|$989,000|Land, Office, Retail||4706||SW Durham Redevelopment Opportunity • ±0.86 acres • 2 Bldgs Totaling ±4,706 SF|
+main|1715 Holloway Street|1715 Holloway Street|Durham|NC|27703|$850,000|Retail||4500|Established tenant in place through 2028||
+main|804 Madison Street|804 Madison Street|Durham|NC|27701|$895,000|Mixed Use, Retail, Multifamily||||Modern Townhome + Guest Suite + Income Opportunity|
+main|312 S Miami Blvd|312 S Miami Blvd|Durham|NC|27703|Unpriced|Retail, Industrial|||||
+suggested|Former Buddy's Home Furnishings|8807 Lem Turner Rd|Jacksonville|FL|32208|$350,000|Retail||||Monument signage in front of building|
+suggested|Former LA Fitness / Oak Brook, IL (Chicago MSA)|2030 York Rd|Oak Brook|IL|60523|$2,000,000|Retail||||Highly Trafficked Location • Coveted Retail Corridor • Top Employment Market|
+suggested|LongHorn Steakhouse|45 Montrose W Ave|Copley|OH|44321|$2,615,766|Retail|6.00%|||NNN • Affluent Area|
+suggested|4403 Del Prado Blvd S|4403 Del Prado Blvd S|Cape Coral|FL|33904|$3,825,000|Retail|8%|||CAPE CORAL SUNOCO GAS STATION & (A+ PLUS) C-STORE (20-YEAR PURE NNN LEASE)|
+suggested|252-01 Union Tpke|Union Tpke|Bellrose|NY|11426|$6,500,000|Retail|5.72%|8400|||
+suggested|Fairway North Plaza|10426 N Dale Mabry Hwy|Tampa|FL|33618|$4,750,000|Retail|6.65%|||Stabilized NNN Retail • Direct Frontage on Dale Mabry (70,500 VPD)|
+suggested|320 W College St, Pulaski TN|320 W College St|Pulaski|TN|38478|$1,400,000|Retail||1908||Turn-key full-service restaurant building|
+suggested||2121 W Main St|Farmington|NM|87401|$1,695,000|Retail||3097||2nd gen fast food w/ drive thru in the Four Corners|
+suggested|Raising Canes in Minneapolis MSA|5625 96TH AVE N|Brooklyn Park|MN|55443-4505|$3,093,750|Retail||||Strong Store Sales • Trophy Freeway Location|
+suggested|2451 CENTRAL AVE ST PETERSBURG FL 33713-8846|2451 CENTRAL AVE|St Petersburg|FL|33713-8846|$1,995,000|Retail||||Central Ave 2nd Gen Restaurant|
+suggested|7 Brew|2665 Navarre Ave|Oregon|OH|43616|$1,500,000|Retail|6.00%|950|||
+suggested|LongHorn Steakhouse: St. Peters, MO|3979 Veterans Memorial Parkway|St Peters|MO|63376|$1,822,900|Retail||||NNN LongHorn Steakhouse Ground Lease • Interstate Location • St. Louis MSA|
+suggested|Retail Redevelopment Opportunity|5158 Jonesboro Rd|Morrow|GA|30260|Unpriced|Retail||||2 LOCATIONS|
+suggested|Dollar General|6816 East County Road B|Lake Nebagamon|WI|54849|$1,854,000|Retail||||South of Lake Superior (3.5+ Million Visitors/Year) • 15-Year Absolute NNN|
+suggested|6022 Maple Street|6022 Maple Street|Omaha|NE|68104|$775,000|Retail||||Located in the heart of Benson|
+suggested|Dollar Tree / Richmond, VA MSA / 73,725 Residents / 8% CAP|2141 S Crater Rd|Petersburg|VA|23805|$1,288,512|Retail|8%|||Pharmacy Backfill • 24,000 VEHICLES DAILY|
+suggested|13449 Van Nuys Blvd|13449 Van Nuys Blvd|Los Angeles|CA|91331|$1,650,000|Retail||2120|||
+suggested|Quaker Crossing Outlot / Orchard Park, NY / Target Shadowed|3505 Amelia Dr|Orchard Park|NY|14127|$2,380,000|Retail||||Affluent Trade Area • Target Shadow Anchored • Prime Retail Location|
+suggested|1135 Haven Rd|1135 Haven Rd|Hagerstown|MD|21742|$1,250,000|Retail||3969|||
+suggested|Four Hills Village|13180 Central Avenue Southeast|Albuquerque|NM|87121|$22,000,000|Retail||||Sprouts / Michaels Anchors Nationally Recognized Retailers|
+TOTAL=26; CARDS=46; NEXT=none

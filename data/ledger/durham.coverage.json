@@ -1,0 +1,34 @@
+{
+ "city:Durham, NC": {
+  "complete": true,
+  "date": "2026-11-21",
+  "main_cards_read": 30,
+  "pages_read": 1,
+  "source": "https://www.crexi.com/properties/NC/DURHAM/Retail",
+  "total_shown": 30
+ },
+ "county:37063": {
+  "complete": true,
+  "date": "2026-11-21",
+  "main_cards_read": 26,
+  "pages_read": 1,
+  "source": "https://www.crexi.com/properties/NC/Durham_County/Retail",
+  "total_shown": 26
+ },
+ "county:37135": {
+  "complete": true,
+  "date": "2026-11-21",
+  "main_cards_read": 42,
+  "pages_read": 1,
+  "source": "https://www.crexi.com/properties/NC/Orange_county",
+  "total_shown": 42
+ },
+ "county:37145": {
+  "complete": true,
+  "date": "2026-11-21",
+  "main_cards_read": 7,
+  "pages_read": 1,
+  "source": "https://www.crexi.com/properties/NC/Person_County",
+  "total_shown": null
+ }
+}

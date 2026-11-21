@@ -1,0 +1,75 @@
+{
+ "key": "durham",
+ "name": "Durham-Chapel Hill, NC",
+ "as_of": "2026-11-21",
+ "cbsa": "20500",
+ "msa": "Durham-Chapel Hill, NC",
+ "counties": [
+  {
+   "fips": "37037",
+   "name": "Chatham County",
+   "state": "NC",
+   "central": "Central"
+  },
+  {
+   "fips": "37063",
+   "name": "Durham County",
+   "state": "NC",
+   "central": "Central"
+  },
+  {
+   "fips": "37135",
+   "name": "Orange County",
+   "state": "NC",
+   "central": "Central"
+  },
+  {
+   "fips": "37145",
+   "name": "Person County",
+   "state": "NC",
+   "central": "Outlying"
+  }
+ ],
+ "pages": [
+  {
+   "id": "county:37037",
+   "label": "Chatham County, NC",
+   "county": "37037",
+   "url": "https://www.crexi.com/properties/NC/Chatham_County/Retail"
+  },
+  {
+   "id": "county:37063",
+   "label": "Durham County, NC",
+   "county": "37063",
+   "url": "https://www.crexi.com/properties/NC/Durham_County/Retail"
+  },
+  {
+   "id": "county:37135",
+   "label": "Orange County, NC",
+   "county": "37135",
+   "url": "https://www.crexi.com/properties/NC/Orange_County/Retail"
+  },
+  {
+   "id": "county:37145",
+   "label": "Person County, NC",
+   "county": "37145",
+   "url": "https://www.crexi.com/properties/NC/Person_County/Retail"
+  },
+  {
+   "id": "city:Durham, NC",
+   "label": "Durham, NC (city page)",
+   "county": "",
+   "url": "https://www.crexi.com/properties/NC/Durham/Retail"
+  },
+  {
+   "id": "city:Chapel Hill, NC",
+   "label": "Chapel Hill, NC (city page)",
+   "county": "",
+   "url": "https://www.crexi.com/properties/NC/Chapel_Hill/Retail"
+  }
+ ],
+ "page_size": 60,
+ "notes": [
+  "Read every county page, then the principal-city pages: Crexi's county and city pages do not list the same listings (on 2026-11-21 the Durham city page showed 9 listings its county page did not). The ledger merges the overlap. Each page also carries suggested listings from other areas, which the scanner drops."
+ ]
+}

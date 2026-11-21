@@ -1,0 +1,1295 @@
+cbsa,city,official_name,state,place_fips
+10100,Aberdeen,Aberdeen,SD,4600100
+10140,Aberdeen,Aberdeen,WA,5300100
+10180,Abilene,Abilene,TX,4801000
+10220,Ada,Ada,OK,4000200
+10300,Adrian,Adrian,MI,2600440
+10380,Aguadilla,Aguadilla,PR,7200745
+10420,Akron,Akron,OH,3901000
+10460,Alamogordo,Alamogordo,NM,3501780
+10480,Alamosa,Alamosa,CO,0801090
+10500,Albany,Albany,GA,1301052
+10540,Albany,Albany,OR,4101000
+10580,Albany,Albany,NY,3601000
+10580,Schenectady,Schenectady,NY,3665508
+10580,Troy,Troy,NY,3675484
+10620,Albemarle,Albemarle,NC,3700680
+10660,Albert Lea,Albert Lea,MN,2700694
+10700,Albertville,Albertville,AL,0100988
+10740,Albuquerque,Albuquerque,NM,3502000
+10760,Alexander City,Alexander City,AL,0101132
+10780,Alexandria,Alexandria,LA,2200975
+10820,Alexandria,Alexandria,MN,2700928
+10860,Alice,Alice,TX,4801852
+10900,Allentown,Allentown,PA,4202000
+10900,Bethlehem,Bethlehem,PA,4206088
+10940,Alma,Alma,MI,2601540
+10980,Alpena,Alpena,MI,2601740
+11020,Altoona,Altoona,PA,4202184
+11060,Altus,Altus,OK,4001700
+11100,Amarillo,Amarillo,TX,4803000
+11140,Americus,Americus,GA,1302116
+11180,Ames,Ames,IA,1901855
+11200,Amherst Town,Amherst Town,MA,2501370
+11200,Northampton,Northampton,MA,2546330
+11220,Amsterdam,Amsterdam,NY,3602066
+11260,Anchorage,Anchorage,AK,0203000
+11360,Anderson Creek,Anderson Creek,NC,3701340
+11380,Andrews,Andrews,TX,4803216
+11420,Angola,Angola,IN,1801666
+11460,Ann Arbor,Ann Arbor,MI,2603000
+11500,Anniston,Anniston,AL,0101852
+11500,Oxford,Oxford,AL,0157576
+11540,Appleton,Appleton,WI,5502375
+11580,Arcadia,Arcadia,FL,1201750
+11620,Ardmore,Ardmore,OK,4002600
+11640,Arecibo,Arecibo,PR,7203368
+11660,Arkadelphia,Arkadelphia,AR,0501870
+11680,Arkansas City,Arkansas City,KS,2002300
+11680,Winfield,Winfield,KS,2079950
+11700,Asheville,Asheville,NC,3702140
+11740,Ashland,Ashland,OH,3902568
+11820,Astoria,Astoria,OR,4103150
+11860,Atchison,Atchison,KS,2002900
+11900,Athens,Athens,OH,3902736
+11940,Athens,Athens,TN,4702320
+11980,Athens,Athens,TX,4804504
+12020,Athens,Athens-Clarke County unified government (balance),GA,1303440
+12060,Alpharetta,Alpharetta,GA,1301696
+12060,Atlanta,Atlanta,GA,1304000
+12060,Dunwoody,Dunwoody,GA,1324768
+12060,Marietta,Marietta,GA,1349756
+12060,Roswell,Roswell,GA,1367284
+12060,Sandy Springs,Sandy Springs,GA,1368516
+12100,Atlantic City,Atlantic City,NJ,3402080
+12100,Hammonton,Hammonton,NJ,3429430
+12140,Auburn,Auburn,IN,1802674
+12180,Auburn,Auburn,NY,3603078
+12220,Auburn,Auburn,AL,0103076
+12220,Opelika,Opelika,AL,0157048
+12260,Augusta,Augusta-Richmond County consolidated government (balance),GA,1304204
+12300,Augusta,Augusta,ME,2302100
+12300,Waterville,Waterville,ME,2380740
+12380,Austin,Austin,MN,2702908
+12420,Austin,Austin,TX,4805000
+12420,Georgetown,Georgetown,TX,4829336
+12420,Round Rock,Round Rock,TX,4863500
+12420,San Marcos,San Marcos,TX,4865600
+12460,Bainbridge,Bainbridge,GA,1304896
+12520,Baker City,Baker City,OR,4103650
+12540,Bakersfield,Bakersfield,CA,0603526
+12540,Delano,Delano,CA,0618394
+12580,Baltimore,Baltimore,MD,2404000
+12580,Columbia,Columbia,MD,2419125
+12580,Towson,Towson,MD,2478425
+12620,Bangor,Bangor,ME,2302795
+12660,Baraboo,Baraboo,WI,5504625
+12700,Barnstable Town,Barnstable Town,MA,2503690
+12740,Barre,Barre,VT,5003175
+12780,Bartlesville,Bartlesville,OK,4004450
+12860,Batavia,Batavia,NY,3604715
+12900,Batesville,Batesville,AR,0504030
+12940,Baton Rouge,Baton Rouge,LA,2205000
+12980,Battle Creek,Battle Creek,MI,2605920
+13020,Bay City,Bay City,MI,2606020
+13060,Bay City,Bay City,TX,4805984
+13100,Beatrice,Beatrice,NE,3103390
+13140,Beaumont,Beaumont,TX,4807000
+13140,Port Arthur,Port Arthur,TX,4858820
+13180,Beaver Dam,Beaver Dam,WI,5505900
+13220,Beckley,Beckley,WV,5405332
+13260,Bedford,Bedford,IN,1804114
+13300,Beeville,Beeville,TX,4807192
+13340,Bellefontaine,Bellefontaine,OH,3905130
+13380,Bellingham,Bellingham,WA,5305280
+13420,Bemidji,Bemidji,MN,2705068
+13460,Bend,Bend,OR,4105800
+13540,Bennington,Bennington,VT,5004750
+13660,Big Rapids,Big Rapids,MI,2608300
+13700,Big Spring,Big Spring,TX,4808236
+13740,Billings,Billings,MT,3006550
+13780,Binghamton,Binghamton,NY,3606607
+13820,Birmingham,Birmingham,AL,0107000
+13860,Bishop,Bishop,CA,0606798
+13900,Bismarck,Bismarck,ND,3807200
+13940,Blackfoot,Blackfoot,ID,1607840
+13980,Blacksburg,Blacksburg,VA,5107784
+13980,Christiansburg,Christiansburg,VA,5116608
+13980,Radford,Radford,VA,5165392
+14010,Bloomington,Bloomington,IL,1706613
+14020,Bloomington,Bloomington,IN,1805860
+14100,Berwick,Berwick,PA,4205888
+14100,Bloomsburg,Bloomsburg,PA,4207128
+14140,Bluefield,Bluefield,WV,5408524
+14180,Blytheville,Blytheville,AR,0507330
+14220,Bogalusa,Bogalusa,LA,2208150
+14260,Boise City,Boise City,ID,1608830
+14300,Bonham,Bonham,TX,4809328
+14380,Boone,Boone,NC,3707080
+14420,Borger,Borger,TX,4809556
+14460,Boston,Boston,MA,2507000
+14460,Cambridge,Cambridge,MA,2511000
+14460,Framingham,Framingham,MA,2524960
+14460,Newton,Newton,MA,2545560
+14460,Waltham,Waltham,MA,2572600
+14500,Boulder,Boulder,CO,0807850
+14540,Bowling Green,Bowling Green,KY,2108902
+14580,Bozeman,Bozeman,MT,3008950
+14620,Bradford,Bradford,PA,4208040
+14660,Brainerd,Brainerd,MN,2707300
+14700,Branson,Branson,MO,2907966
+14710,Brattleboro,Brattleboro,VT,5007975
+14720,Breckenridge,Breckenridge,CO,0808400
+14740,Bremerton,Bremerton,WA,5307695
+14740,Port Orchard,Port Orchard,WA,5355785
+14740,Silverdale,Silverdale,WA,5364365
+14780,Brenham,Brenham,TX,4810156
+14820,Brevard,Brevard,NC,3707720
+14860,Bridgeport,Bridgeport,CT,0908000
+14860,Danbury,Danbury,CT,0918430
+14860,Stamford,Stamford,CT,0973000
+14940,Brigham City,Brigham City,UT,4908460
+15020,Brookhaven,Brookhaven,MS,2808820
+15060,Brookings,Brookings,OR,4108650
+15100,Brookings,Brookings,SD,4607580
+15180,Brownsville,Brownsville,TX,4810768
+15180,Harlingen,Harlingen,TX,4832372
+15220,Brownwood,Brownwood,TX,4810780
+15260,Brunswick,Brunswick,GA,1311560
+15260,St. Simons,St. Simons,GA,1368040
+15340,Bucyrus,Bucyrus,OH,3910030
+15380,Buffalo,Buffalo,NY,3611000
+15380,Cheektowaga,Cheektowaga,NY,3615000
+15420,Burley,Burley,ID,1611260
+15460,Burlington,Burlington,IA,1909550
+15500,Burlington,Burlington,NC,3709060
+15540,Burlington,Burlington,VT,5010675
+15540,South Burlington,South Burlington,VT,5066175
+15580,Butte,Butte-Silver Bow (balance),MT,3011397
+15620,Cadillac,Cadillac,MI,2612320
+15660,Calhoun,Calhoun,GA,1312456
+15700,Cambridge,Cambridge,MD,2412400
+15740,Cambridge,Cambridge,OH,3910996
+15780,Camden,Camden,AR,0510720
+15820,Campbellsville,Campbellsville,KY,2112160
+15860,Cañon City,Cañon City,CO,0811810
+15900,Canton,Canton,IL,1711007
+15940,Canton,Canton,OH,3912000
+15940,Massillon,Massillon,OH,3948244
+15980,Cape Coral,Cape Coral,FL,1210275
+15980,Fort Myers,Fort Myers,FL,1224125
+16020,Cape Girardeau,Cape Girardeau,MO,2911242
+16060,Carbondale,Carbondale,IL,1711163
+16100,Artesia,Artesia,NM,3505220
+16100,Carlsbad,Carlsbad,NM,3512150
+16140,Carroll,Carroll,IA,1911080
+16180,Carson City,Carson City,NV,3209700
+16220,Casper,Casper,WY,5613150
+16260,Cedar City,Cedar City,UT,4911320
+16300,Cedar Rapids,Cedar Rapids,IA,1912000
+16340,Cedartown,Cedartown,GA,1314500
+16380,Celina,Celina,OH,3912868
+16460,Centralia,Centralia,IL,1712164
+16500,Centralia,Centralia,WA,5311160
+16540,Chambersburg,Chambersburg,PA,4212536
+16580,Champaign,Champaign,IL,1712385
+16580,Urbana,Urbana,IL,1777005
+16620,Charleston,Charleston,WV,5414600
+16660,Charleston,Charleston,IL,1712567
+16660,Mattoon,Mattoon,IL,1747553
+16700,Charleston,Charleston,SC,4513330
+16700,North Charleston,North Charleston,SC,4550875
+16740,Charlotte,Charlotte,NC,3712000
+16740,Concord,Concord,NC,3714100
+16740,Gastonia,Gastonia,NC,3725580
+16740,Mooresville,Mooresville,NC,3744220
+16740,Rock Hill,Rock Hill,SC,4561405
+16820,Charlottesville,Charlottesville,VA,5114968
+16860,Chattanooga,Chattanooga,TN,4714000
+16940,Cheyenne,Cheyenne,WY,5613900
+16980,Bolingbrook,Bolingbrook,IL,1707133
+16980,Chicago,Chicago,IL,1714000
+16980,Des Plaines,Des Plaines,IL,1719642
+16980,Downers Grove,Downers Grove,IL,1720591
+16980,Elgin,Elgin,IL,1723074
+16980,Evanston,Evanston,IL,1724582
+16980,Naperville,Naperville,IL,1751622
+16980,Schaumburg,Schaumburg,IL,1768003
+16980,Skokie,Skokie,IL,1770122
+17020,Chico,Chico,CA,0613014
+17060,Chillicothe,Chillicothe,OH,3914184
+17140,Cincinnati,Cincinnati,OH,3915000
+17220,Clarksburg,Clarksburg,WV,5415628
+17260,Clarksdale,Clarksdale,MS,2813820
+17300,Clarksville,Clarksville,TN,4715160
+17340,Clearlake,Clearlake,CA,0613945
+17380,Cleveland,Cleveland,MS,2814260
+17410,Cleveland,Cleveland,OH,3916000
+17420,Cleveland,Cleveland,TN,4715400
+17500,Clewiston,Clewiston,FL,1213000
+17540,Clinton,Clinton,IA,1914430
+17580,Clovis,Clovis,NM,3516420
+17620,Coamo,Coamo,PR,7218719
+17640,Coco,Coco,PR,7218891
+17650,Cody,Cody,WY,5615760
+17660,Coeur d'Alene,Coeur d'Alene,ID,1616750
+17740,Coldwater,Coldwater,MI,2617020
+17780,Bryan,Bryan,TX,4810912
+17780,College Station,College Station,TX,4815976
+17820,Colorado Springs,Colorado Springs,CO,0816000
+17860,Columbia,Columbia,MO,2915670
+17900,Columbia,Columbia,SC,4516000
+17980,Columbus,Columbus,GA,1319000
+18020,Columbus,Columbus,IN,1814734
+18060,Columbus,Columbus,MS,2815380
+18100,Columbus,Columbus,NE,3110110
+18140,Columbus,Columbus,OH,3918000
+18180,Concord,Concord,NH,3314200
+18220,Connersville,Connersville,IN,1814932
+18260,Cookeville,Cookeville,TN,4716920
+18300,Coos Bay,Coos Bay,OR,4115250
+18300,North Bend,North Bend,OR,4153000
+18340,Corbin,Corbin,KY,2117362
+18380,Cordele,Cordele,GA,1319616
+18420,Corinth,Corinth,MS,2815700
+18460,Cornelia,Cornelia,GA,1319728
+18500,Corning,Corning,NY,3618256
+18580,Corpus Christi,Corpus Christi,TX,4817000
+18620,Corsicana,Corsicana,TX,4817060
+18660,Cortland,Cortland,NY,3618388
+18700,Corvallis,Corvallis,OR,4115800
+18740,Coshocton,Coshocton,OH,3918868
+18820,Crawfordsville,Crawfordsville,IN,1815742
+18860,Crescent City,Crescent City,CA,0617022
+18880,Crestview,Crestview,FL,1215475
+18880,Destin,Destin,FL,1217325
+18880,Fort Walton Beach,Fort Walton Beach,FL,1224475
+18900,Crossville,Crossville,TN,4718540
+18980,Cullman,Cullman,AL,0118976
+19060,Cumberland,Cumberland,MD,2421325
+19100,Arlington,Arlington,TX,4804000
+19100,Dallas,Dallas,TX,4819000
+19100,Denton,Denton,TX,4819972
+19100,Fort Worth,Fort Worth,TX,4827000
+19100,Grapevine,Grapevine,TX,4830644
+19100,Irving,Irving,TX,4837000
+19100,Plano,Plano,TX,4858016
+19100,Richardson,Richardson,TX,4861796
+19140,Dalton,Dalton,GA,1321380
+19180,Danville,Danville,IL,1718563
+19220,Danville,Danville,KY,2119882
+19260,Danville,Danville,VA,5121344
+19300,Daphne,Daphne,AL,0119648
+19300,Fairhope,Fairhope,AL,0125240
+19300,Foley,Foley,AL,0126992
+19300,Gulf Shores,Gulf Shores,AL,0132272
+19340,Moline,Moline,IL,1749867
+19340,Rock Island,Rock Island,IL,1765078
+19340,Davenport,Davenport,IA,1919000
+19430,Beavercreek,Beavercreek,OH,3904720
+19430,Dayton,Dayton,OH,3921000
+19430,Kettering,Kettering,OH,3940040
+19460,Decatur,Decatur,AL,0120104
+19500,Decatur,Decatur,IL,1718823
+19540,Decatur,Decatur,IN,1817074
+19580,Defiance,Defiance,OH,3921308
+19620,Del Rio,Del Rio,TX,4819792
+19660,Daytona Beach,Daytona Beach,FL,1216525
+19660,DeLand,DeLand,FL,1216875
+19660,Deltona,Deltona,FL,1217200
+19660,Ormond Beach,Ormond Beach,FL,1253150
+19700,Deming,Deming,NM,3520270
+19740,Aurora,Aurora,CO,0804000
+19740,Broomfield,Broomfield,CO,0809280
+19740,Centennial,Centennial,CO,0812815
+19740,Commerce City,Commerce City,CO,0816495
+19740,Denver,Denver,CO,0820000
+19760,DeRidder,DeRidder,LA,2220610
+19780,Des Moines,Des Moines,IA,1921000
+19780,West Des Moines,West Des Moines,IA,1983910
+19810,Detroit Lakes,Detroit Lakes,MN,2715832
+19820,Dearborn,Dearborn,MI,2621000
+19820,Detroit,Detroit,MI,2622000
+19820,Farmington Hills,Farmington Hills,MI,2627440
+19820,Livonia,Livonia,MI,2649000
+19820,Novi,Novi,MI,2659440
+19820,Pontiac,Pontiac,MI,2665440
+19820,Southfield,Southfield,MI,2674900
+19820,Troy,Troy,MI,2680700
+19820,Warren,Warren,MI,2684000
+19860,Dickinson,Dickinson,ND,3819620
+19940,Dixon,Dixon,IL,1720162
+19980,Dodge City,Dodge City,KS,2018250
+20020,Dothan,Dothan,AL,0121184
+20060,Douglas,Douglas,GA,1323872
+20100,Dover,Dover,DE,1021200
+20140,Dublin,Dublin,GA,1324376
+20180,DuBois,DuBois,PA,4220136
+20220,Dubuque,Dubuque,IA,1922395
+20260,Duluth,Duluth,MN,2717000
+20300,Dumas,Dumas,TX,4821556
+20340,Duncan,Duncan,OK,4021900
+20420,Durango,Durango,CO,0822035
+20460,Durant,Durant,OK,4022050
+20500,Chapel Hill,Chapel Hill,NC,3711800
+20500,Durham,Durham,NC,3719000
+20540,Dyersburg,Dyersburg,TN,4722200
+20580,Eagle Pass,Eagle Pass,TX,4821892
+20660,Easton,Easton,MD,2424475
+20700,East Stroudsburg,East Stroudsburg,PA,4221872
+20740,Eau Claire,Eau Claire,WI,5522300
+20780,Edwards,Edwards,CO,0823300
+20820,Effingham,Effingham,IL,1722736
+20900,El Campo,El Campo,TX,4822864
+20940,El Centro,El Centro,CA,0621782
+20980,El Dorado,El Dorado,AR,0521070
+21020,Elizabeth City,Elizabeth City,NC,3720580
+21060,Elizabethtown,Elizabethtown,KY,2124274
+21120,Elk City,Elk City,OK,4023500
+21140,Elkhart,Elkhart,IN,1820728
+21140,Goshen,Goshen,IN,1828386
+21180,Elkins,Elkins,WV,5424580
+21220,Elko,Elko,NV,3222500
+21260,Ellensburg,Ellensburg,WA,5321240
+21300,Elmira,Elmira,NY,3624229
+21340,El Paso,El Paso,TX,4824000
+21380,Emporia,Emporia,KS,2021275
+21420,Enid,Enid,OK,4023950
+21460,Enterprise,Enterprise,AL,0124184
+21500,Erie,Erie,PA,4224000
+21540,Escanaba,Escanaba,MI,2626360
+21580,Española,Española,NM,3525170
+21640,Eufaula,Eufaula,AL,0124568
+21660,Eugene,Eugene,OR,4123850
+21660,Springfield,Springfield,OR,4169600
+21700,Arcata,Arcata,CA,0602476
+21700,Eureka,Eureka,CA,0623042
+21740,Evanston,Evanston,WY,5625620
+21780,Evansville,Evansville,IN,1822000
+21820,College,College,AK,0216750
+21820,Fairbanks,Fairbanks,AK,0224230
+21860,Fairmont,Fairmont,MN,2720330
+21900,Fairmont,Fairmont,WV,5426452
+21980,Fallon,Fallon,NV,3224100
+22020,Fargo,Fargo,ND,3825700
+22060,Faribault,Faribault,MN,2720546
+22060,Northfield,Northfield,MN,2746924
+22100,Farmington,Farmington,MO,2923752
+22140,Farmington,Farmington,NM,3525800
+22180,Fayetteville,Fayetteville,NC,3722920
+22190,Fayetteville,Fayetteville,TN,4725920
+22220,Bentonville,Bentonville,AR,0505320
+22220,Fayetteville,Fayetteville,AR,0523290
+22220,Rogers,Rogers,AR,0560410
+22220,Springdale,Springdale,AR,0566080
+22260,Fergus Falls,Fergus Falls,MN,2720906
+22300,Findlay,Findlay,OH,3927048
+22340,Fitzgerald,Fitzgerald,GA,1329528
+22380,Flagstaff,Flagstaff,AZ,0423620
+22420,Flint,Flint,MI,2629000
+22500,Florence,Florence,SC,4525810
+22520,Florence,Florence,AL,0126896
+22520,Muscle Shoals,Muscle Shoals,AL,0153016
+22540,Fond du Lac,Fond du Lac,WI,5526275
+22580,Forest City,Forest City,NC,3724080
+22620,Forrest City,Forrest City,AR,0524430
+22660,Fort Collins,Fort Collins,CO,0827425
+22660,Loveland,Loveland,CO,0846465
+22700,Fort Dodge,Fort Dodge,IA,1928515
+22780,Fort Leonard Wood,Fort Leonard Wood,MO,2925264
+22800,Fort Madison,Fort Madison,IA,1928605
+22820,Fort Morgan,Fort Morgan,CO,0827810
+22840,Fort Payne,Fort Payne,AL,0127616
+22900,Fort Smith,Fort Smith,AR,0524550
+23060,Fort Wayne,Fort Wayne,IN,1825000
+23140,Frankfort,Frankfort,IN,1825324
+23180,Frankfort,Frankfort,KY,2128900
+23190,Franklin,Franklin,KY,2128918
+23240,Fredericksburg,Fredericksburg,TX,4827348
+23300,Freeport,Freeport,IL,1727884
+23340,Fremont,Fremont,NE,3117670
+23380,Fremont,Fremont,OH,3928826
+23420,Fresno,Fresno,CA,0627000
+23460,Gadsden,Gadsden,AL,0128696
+23500,Gaffney,Gaffney,SC,4528060
+23540,Gainesville,Gainesville,FL,1225175
+23580,Gainesville,Gainesville,GA,1331908
+23620,Gainesville,Gainesville,TX,4827984
+23660,Galesburg,Galesburg,IL,1728326
+23680,Gallipolis,Gallipolis,OH,3929204
+23700,Gallup,Gallup,NM,3528460
+23780,Garden City,Garden City,KS,2025325
+23820,Gardnerville Ranchos,Gardnerville Ranchos,NV,3226500
+23900,Gettysburg,Gettysburg,PA,4228960
+23940,Gillette,Gillette,WY,5631855
+23980,Glasgow,Glasgow,KY,2131114
+24020,Glens Falls,Glens Falls,NY,3629333
+24100,Gloversville,Gloversville,NY,3629443
+24140,Goldsboro,Goldsboro,NC,3726880
+24180,Granbury,Granbury,TX,4830416
+24220,Grand Forks,Grand Forks,ND,3832060
+24260,Grand Island,Grand Island,NE,3119595
+24300,Grand Junction,Grand Junction,CO,0831660
+24330,Grand Rapids,Grand Rapids,MN,2725118
+24340,Grand Rapids,Grand Rapids,MI,2634000
+24340,Kentwood,Kentwood,MI,2642820
+24340,Wyoming,Wyoming,MI,2688940
+24420,Grants Pass,Grants Pass,OR,4130550
+24460,Great Bend,Great Bend,KS,2028300
+24500,Great Falls,Great Falls,MT,3032800
+24540,Greeley,Greeley,CO,0832155
+24580,Green Bay,Green Bay,WI,5531000
+24600,Greencastle,Greencastle,IN,1829358
+24620,Greeneville,Greeneville,TN,4730980
+24640,Greenfield,Greenfield,MA,2527060
+24660,Greensboro,Greensboro,NC,3728000
+24660,High Point,High Point,NC,3731400
+24700,Greensburg,Greensburg,IN,1829718
+24740,Greenville,Greenville,MS,2829180
+24780,Greenville,Greenville,NC,3728080
+24820,Greenville,Greenville,OH,3932340
+24860,Anderson,Anderson,SC,4501360
+24860,Greenville,Greenville,SC,4530850
+24860,Greer,Greer,SC,4530985
+24860,Mauldin,Mauldin,SC,4545115
+24900,Greenwood,Greenwood,MS,2829340
+24940,Greenwood,Greenwood,SC,4530895
+24980,Grenada,Grenada,MS,2829460
+25020,Guayama,Guayama,PR,7232221
+25060,Biloxi,Biloxi,MS,2806220
+25060,Gulfport,Gulfport,MS,2829700
+25100,Guymon,Guymon,OK,4031750
+25180,Hagerstown,Hagerstown,MD,2436075
+25180,Martinsburg,Martinsburg,WV,5452060
+25200,Hailey,Hailey,ID,1634390
+25220,Hammond,Hammond,LA,2232755
+25260,Corcoran,Corcoran,CA,0616224
+25260,Hanford,Hanford,CA,0631960
+25300,Hannibal,Hannibal,MO,2930214
+25420,Carlisle,Carlisle,PA,4211272
+25420,Harrisburg,Harrisburg,PA,4232800
+25460,Harrison,Harrison,AR,0530460
+25500,Harrisonburg,Harrisonburg,VA,5135624
+25540,East Hartford,East Hartford,CT,0922700
+25540,Hartford,Hartford,CT,0937000
+25540,Middletown,Middletown,CT,0947290
+25540,West Hartford,West Hartford,CT,0982660
+25580,Hastings,Hastings,NE,3121415
+25620,Hattiesburg,Hattiesburg,MS,2831020
+25700,Hays,Hays,KS,2031100
+25720,Heber,Heber,UT,4934200
+25740,Helena,Helena,MT,3035600
+25770,Hemlock Farms,Hemlock Farms,PA,4233772
+25775,Henderson,Henderson,KY,2135866
+25780,Henderson,Henderson,NC,3730660
+25820,Hereford,Hereford,TX,4833320
+25840,Hermiston,Hermiston,OR,4133700
+25840,Pendleton,Pendleton,OR,4157150
+25850,Hermitage,Hermitage,PA,4234064
+25860,Hickory,Hickory,NC,3731060
+25860,Lenoir,Lenoir,NC,3737760
+25860,Morganton,Morganton,NC,3744400
+25880,Hillsdale,Hillsdale,MI,2638460
+25900,Hilo,Hilo,HI,1514650
+25900,Kailua,Kailua,HI,1523000
+25940,Beaufort,Beaufort,SC,4504690
+25940,Bluffton,Bluffton,SC,4507210
+25940,Hilton Head Island,Hilton Head Island,SC,4534045
+25940,Port Royal,Port Royal,SC,4558030
+25980,Hinesville,Hinesville,GA,1338964
+26020,Hobbs,Hobbs,NM,3532520
+26090,Holland,Holland,MI,2638640
+26140,Homosassa Springs,Homosassa Springs,FL,1232400
+26220,Hood River,Hood River,OR,4134900
+26300,Hot Springs,Hot Springs,AR,0533400
+26340,Houghton,Houghton,MI,2639360
+26380,Bayou Cane,Bayou Cane,LA,2205210
+26380,Houma,Houma,LA,2236255
+26380,Thibodaux,Thibodaux,LA,2275425
+26420,Baytown,Baytown,TX,4806128
+26420,Conroe,Conroe,TX,4816432
+26420,Galveston,Galveston,TX,4828068
+26420,Houston,Houston,TX,4835000
+26420,Pasadena,Pasadena,TX,4856000
+26420,Sugar Land,Sugar Land,TX,4870808
+26420,Texas City,Texas City,TX,4872392
+26420,The Woodlands,The Woodlands,TX,4872656
+26460,Hudson,Hudson,NY,3635969
+26500,Huntingdon,Huntingdon,PA,4236368
+26540,Huntington,Huntington,IN,1835302
+26580,Ashland,Ashland,KY,2102368
+26580,Huntington,Huntington,WV,5439460
+26620,Huntsville,Huntsville,AL,0137000
+26660,Huntsville,Huntsville,TX,4835528
+26700,Huron,Huron,SD,4631060
+26740,Hutchinson,Hutchinson,KS,2033625
+26780,Hutchinson,Hutchinson,MN,2730644
+26820,Idaho Falls,Idaho Falls,ID,1639700
+26860,Indiana,Indiana,PA,4236816
+26900,Anderson,Anderson,IN,1801468
+26900,Carmel,Carmel,IN,1810342
+26900,Greenwood,Greenwood,IN,1829898
+26900,Indianapolis,Indianapolis city (balance),IN,1836003
+26980,Iowa City,Iowa City,IA,1938595
+27020,Iron Mountain,Iron Mountain,MI,2640960
+27060,Ithaca,Ithaca,NY,3638077
+27100,Jackson,Jackson,MI,2641420
+27140,Jackson,Jackson,MS,2836000
+27180,Jackson,Jackson,TN,4737640
+27220,Jackson,Jackson,WY,5640120
+27260,Jacksonville,Jacksonville,FL,1235000
+27300,Jacksonville,Jacksonville,IL,1738115
+27340,Jacksonville,Jacksonville,NC,3734200
+27380,Jacksonville,Jacksonville,TX,4837216
+27420,Jamestown,Jamestown,ND,3840580
+27460,Dunkirk,Dunkirk,NY,3621105
+27460,Jamestown,Jamestown,NY,3638264
+27500,Beloit,Beloit,WI,5506500
+27500,Janesville,Janesville,WI,5537825
+27540,Jasper,Jasper,IN,1837782
+27600,Jefferson,Jefferson,GA,1341988
+27620,Jefferson City,Jefferson City,MO,2937000
+27700,Jesup,Jesup,GA,1342268
+27740,Johnson City,Johnson City,TN,4738320
+27780,Johnstown,Johnstown,PA,4238288
+27860,Jonesboro,Jonesboro,AR,0535710
+27900,Joplin,Joplin,MO,2937592
+27940,Juneau,Juneau,AK,0236400
+27980,Kahului,Kahului,HI,1522700
+27980,Wailuku,Wailuku,HI,1577450
+28020,Kalamazoo,Kalamazoo,MI,2642160
+28020,Portage,Portage,MI,2665560
+28060,Kalispell,Kalispell,MT,3040075
+28100,Kankakee,Kankakee,IL,1738934
+28140,Kansas City,Kansas City,KS,2036000
+28140,Lenexa,Lenexa,KS,2039350
+28140,Overland Park,Overland Park,KS,2053775
+28140,Kansas City,Kansas City,MO,2938000
+28180,Kapaa,Kapaa,HI,1528850
+28260,Kearney,Kearney,NE,3125055
+28300,Keene,Keene,NH,3339300
+28340,Kendallville,Kendallville,IN,1839402
+28380,Kennett,Kennett,MO,2938306
+28420,Kennewick,Kennewick,WA,5335275
+28420,Richland,Richland,WA,5358235
+28450,Kenosha,Kenosha,WI,5539225
+28500,Kerrville,Kerrville,TX,4839040
+28540,Ketchikan,Ketchikan,AK,0238970
+28580,Key Largo,Key Largo,FL,1236375
+28580,Key West,Key West,FL,1236550
+28620,Kill Devil Hills,Kill Devil Hills,NC,3735720
+28660,Killeen,Killeen,TX,4839148
+28660,Temple,Temple,TX,4872176
+28680,Kingsland,Kingsland,GA,1343640
+28700,Bristol,Bristol,TN,4708540
+28700,Kingsport,Kingsport,TN,4739560
+28740,Kingston,Kingston,NY,3639727
+28780,Kingsville,Kingsville,TX,4839352
+28820,Kinston,Kinston,NC,3735920
+28860,Kirksville,Kirksville,MO,2939026
+28880,Kiryas Joel,Kiryas Joel,NY,3639853
+28880,Newburgh,Newburgh,NY,3650034
+28880,Poughkeepsie,Poughkeepsie,NY,3659641
+28880,Woodbury,Woodbury,NY,3682750
+28900,Klamath Falls,Klamath Falls,OR,4139700
+28940,Knoxville,Knoxville,TN,4740000
+29020,Kokomo,Kokomo,IN,1840392
+29060,Laconia,Laconia,NH,3340180
+29100,La Crosse,La Crosse,WI,5540775
+29100,Onalaska,Onalaska,WI,5559925
+29180,Lafayette,Lafayette,LA,2240735
+29200,Lafayette,Lafayette,IN,1840788
+29200,West Lafayette,West Lafayette,IN,1882862
+29260,La Grande,La Grande,OR,4140350
+29300,LaGrange,LaGrange,GA,1344340
+29340,Lake Charles,Lake Charles,LA,2241155
+29380,Lake City,Lake City,FL,1237775
+29420,Kingman,Kingman,AZ,0437620
+29420,Lake Havasu City,Lake Havasu City,AZ,0439370
+29460,Lakeland,Lakeland,FL,1238250
+29460,Winter Haven,Winter Haven,FL,1278275
+29470,Lake of the Woods,Lake of the Woods,VA,5143430
+29540,Lancaster,Lancaster,PA,4241216
+29620,East Lansing,East Lansing,MI,2624120
+29620,Lansing,Lansing,MI,2646000
+29660,Laramie,Laramie,WY,5645050
+29700,Laredo,Laredo,TX,4841464
+29720,Lares,Lares,PR,7242498
+29740,Las Cruces,Las Cruces,NM,3539380
+29780,Las Vegas,Las Vegas,NM,3539940
+29820,Henderson,Henderson,NV,3231900
+29820,Las Vegas,Las Vegas,NV,3240000
+29820,North Las Vegas,North Las Vegas,NV,3251800
+29820,Paradise,Paradise,NV,3254600
+29860,Laurel,Laurel,MS,2839640
+29900,Laurinburg,Laurinburg,NC,3737220
+29940,Lawrence,Lawrence,KS,2038900
+29980,Lawrenceburg,Lawrenceburg,TN,4741340
+30020,Lawton,Lawton,OK,4041850
+30060,Lebanon,Lebanon,MO,2941168
+30140,Lebanon,Lebanon,PA,4242168
+30150,Claremont,Claremont,NH,3312900
+30150,Lebanon,Lebanon,NH,3341300
+30180,Le Mars,Le Mars,IA,1944400
+30260,Lewisburg,Lewisburg,PA,4242976
+30280,Lewisburg,Lewisburg,TN,4741860
+30300,Lewiston,Lewiston,ID,1646540
+30340,Auburn,Auburn,ME,2302060
+30340,Lewiston,Lewiston,ME,2338740
+30380,Lewistown,Lewistown,PA,4243000
+30420,Lexington,Lexington,NE,3126910
+30460,Lexington-Fayette,Lexington-Fayette,KY,2146027
+30500,Lexington Park,Lexington Park,MD,2446725
+30580,Liberal,Liberal,KS,2039825
+30620,Lima,Lima,OH,3943554
+30660,Lincoln,Lincoln,IL,1743536
+30700,Lincoln,Lincoln,NE,3128000
+30780,Conway,Conway,AR,0515190
+30780,Little Rock,Little Rock,AR,0541000
+30780,North Little Rock,North Little Rock,AR,0550450
+30820,Lock Haven,Lock Haven,PA,4244128
+30860,Logan,Logan,UT,4945860
+30900,Logansport,Logansport,IN,1844658
+30980,Longview,Longview,TX,4843888
+31020,Kelso,Kelso,WA,5335065
+31020,Longview,Longview,WA,5340245
+31060,Los Alamos,Los Alamos,NM,3542320
+31080,Anaheim,Anaheim,CA,0602000
+31080,Arcadia,Arcadia,CA,0602462
+31080,Burbank,Burbank,CA,0608954
+31080,Carson,Carson,CA,0611530
+31080,Costa Mesa,Costa Mesa,CA,0616532
+31080,Cypress,Cypress,CA,0617750
+31080,Fountain Valley,Fountain Valley,CA,0625380
+31080,Gardena,Gardena,CA,0628168
+31080,Glendale,Glendale,CA,0630000
+31080,Irvine,Irvine,CA,0636770
+31080,Long Beach,Long Beach,CA,0643000
+31080,Los Angeles,Los Angeles,CA,0644000
+31080,Newport Beach,Newport Beach,CA,0651182
+31080,Orange,Orange,CA,0653980
+31080,Pasadena,Pasadena,CA,0656000
+31080,Santa Ana,Santa Ana,CA,0669000
+31080,Santa Monica,Santa Monica,CA,0670000
+31080,Torrance,Torrance,CA,0680000
+31080,Tustin,Tustin,CA,0680854
+31140,Louisville,Louisville/Jefferson County metro government (balance),KY,2148006
+31180,Lubbock,Lubbock,TX,4845000
+31220,Ludington,Ludington,MI,2649640
+31260,Lufkin,Lufkin,TX,4845072
+31300,Lumberton,Lumberton,NC,3739700
+31340,Lynchburg,Lynchburg,VA,5147672
+31380,Macomb,Macomb,IL,1745889
+31420,Macon-Bibb County,Macon-Bibb County,GA,1349008
+31500,Madison,Madison,IN,1845990
+31540,Madison,Madison,WI,5548000
+31580,Madisonville,Madisonville,KY,2149368
+31620,Magnolia,Magnolia,AR,0543460
+31680,Malvern,Malvern,AR,0543610
+31700,Manchester,Manchester,NH,3345140
+31700,Nashua,Nashua,NH,3350260
+31740,Manhattan,Manhattan,KS,2044250
+31820,Manitowoc,Manitowoc,WI,5548500
+31860,Mankato,Mankato,MN,2739878
+31900,Mansfield,Mansfield,OH,3947138
+31930,Marietta,Marietta,OH,3947628
+31940,Marinette,Marinette,WI,5549300
+31980,Marion,Marion,IN,1846908
+32000,Marion,Marion,NC,3741420
+32020,Marion,Marion,OH,3947754
+32060,Herrin,Herrin,IL,1734358
+32060,Marion,Marion,IL,1746916
+32100,Marquette,Marquette,MI,2651900
+32140,Marshall,Marshall,MN,2740688
+32180,Marshall,Marshall,MO,2946316
+32260,Marshalltown,Marshalltown,IA,1949755
+32280,Martin,Martin,TN,4746240
+32300,Martinsville,Martinsville,VA,5149784
+32340,Maryville,Maryville,MO,2946640
+32380,Mason City,Mason City,IA,1950160
+32390,Massena,Massena,NY,3646019
+32390,Ogdensburg,Ogdensburg,NY,3654485
+32420,Mayagüez,Mayagüez,PR,7252431
+32460,Mayfield,Mayfield,KY,2150898
+32540,McAlester,McAlester,OK,4044800
+32580,Edinburg,Edinburg,TX,4822660
+32580,McAllen,McAllen,TX,4845384
+32580,Mission,Mission,TX,4848768
+32580,Pharr,Pharr,TX,4857200
+32620,McComb,McComb,MS,2843280
+32660,McMinnville,McMinnville,TN,4745100
+32700,McPherson,McPherson,KS,2043950
+32740,Meadville,Meadville,PA,4248360
+32780,Medford,Medford,OR,4147000
+32820,Memphis,Memphis,TN,4748000
+32860,Menomonie,Menomonie,WI,5551025
+32900,Merced,Merced,CA,0646898
+32940,Meridian,Meridian,MS,2846640
+33020,Mexico,Mexico,MO,2947648
+33060,Miami,Miami,OK,4048000
+33100,Boca Raton,Boca Raton,FL,1207300
+33100,Deerfield Beach,Deerfield Beach,FL,1216725
+33100,Delray Beach,Delray Beach,FL,1217100
+33100,Doral,Doral,FL,1217935
+33100,Fort Lauderdale,Fort Lauderdale,FL,1224000
+33100,Jupiter,Jupiter,FL,1235875
+33100,Kendall,Kendall,FL,1236100
+33100,Miami,Miami,FL,1245000
+33100,Miami Beach,Miami Beach,FL,1245025
+33100,Palm Beach Gardens,Palm Beach Gardens,FL,1254075
+33100,Pompano Beach,Pompano Beach,FL,1258050
+33100,Sunrise,Sunrise,FL,1269700
+33100,West Palm Beach,West Palm Beach,FL,1276600
+33140,La Porte,La Porte,IN,1842246
+33140,Michigan City,Michigan City,IN,1848798
+33180,Middlesborough,Middlesborough,KY,2151924
+33220,Midland,Midland,MI,2653780
+33260,Midland,Midland,TX,4848072
+33300,Milledgeville,Milledgeville,GA,1351492
+33340,Milwaukee,Milwaukee,WI,5553000
+33340,Waukesha,Waukesha,WI,5584250
+33380,Minden,Minden,LA,2250885
+33420,Mineral Wells,Mineral Wells,TX,4848684
+33460,Bloomington,Bloomington,MN,2706616
+33460,Burnsville,Burnsville,MN,2708794
+33460,Eagan,Eagan,MN,2717288
+33460,Eden Prairie,Eden Prairie,MN,2718116
+33460,Edina,Edina,MN,2718188
+33460,Minneapolis,Minneapolis,MN,2743000
+33460,Minnetonka,Minnetonka,MN,2743252
+33460,Plymouth,Plymouth,MN,2751730
+33460,St. Louis Park,St. Louis Park,MN,2757220
+33460,St. Paul,St. Paul,MN,2758000
+33500,Minot,Minot,ND,3853380
+33540,Missoula,Missoula,MT,3050200
+33580,Mitchell,Mitchell,SD,4643100
+33620,Moberly,Moberly,MO,2949034
+33660,Mobile,Mobile,AL,0150000
+33700,Modesto,Modesto,CA,0648354
+33740,Monroe,Monroe,LA,2251410
+33780,Monroe,Monroe,MI,2655020
+33860,Montgomery,Montgomery,AL,0151000
+33900,Monticello,Monticello,IN,1850760
+33910,Monticello,Monticello,NY,3648175
+33940,Montrose,Montrose,CO,0851745
+33980,Morehead City,Morehead City,NC,3744320
+34020,Morgan City,Morgan City,LA,2252040
+34060,Morgantown,Morgantown,WV,5455756
+34100,Morristown,Morristown,TN,4750280
+34140,Moscow,Moscow,ID,1654550
+34180,Moses Lake,Moses Lake,WA,5347245
+34220,Moultrie,Moultrie,GA,1353060
+34260,Mountain Home,Mountain Home,AR,0547390
+34300,Mountain Home,Mountain Home,ID,1654730
+34340,Mount Airy,Mount Airy,NC,3744800
+34380,Mount Pleasant,Mount Pleasant,MI,2656020
+34420,Mount Pleasant,Mount Pleasant,TX,4849800
+34460,Mount Sterling,Mount Sterling,KY,2154084
+34500,Mount Vernon,Mount Vernon,IL,1751180
+34540,Mount Vernon,Mount Vernon,OH,3953102
+34580,Anacortes,Anacortes,WA,5301990
+34580,Mount Vernon,Mount Vernon,WA,5347560
+34620,Muncie,Muncie,IN,1851876
+34660,Murray,Murray,KY,2154642
+34680,Murrells Inlet,Murrells Inlet,SC,4548985
+34700,Muscatine,Muscatine,IA,1955110
+34740,Muskegon,Muskegon,MI,2656320
+34740,Norton Shores,Norton Shores,MI,2659140
+34780,Muskogee,Muskogee,OK,4050050
+34820,Conway,Conway,SC,4516405
+34820,Myrtle Beach,Myrtle Beach,SC,4549075
+34820,North Myrtle Beach,North Myrtle Beach,SC,4551280
+34860,Nacogdoches,Nacogdoches,TX,4850256
+34880,Nantucket,Nantucket,MA,2543755
+34900,Napa,Napa,CA,0650258
+34940,Marco Island,Marco Island,FL,1243083
+34940,Naples,Naples,FL,1247625
+34980,Franklin,Franklin,TN,4727740
+34980,Murfreesboro,Murfreesboro,TN,4751560
+34980,Nashville,Nashville-Davidson metropolitan government (balance),TN,4752006
+34980,Smyrna,Smyrna,TN,4769420
+35020,Natchez,Natchez,MS,2850440
+35060,Natchitoches,Natchitoches,LA,2253545
+35100,New Bern,New Bern,NC,3746340
+35140,Newberry,Newberry,SC,4549570
+35220,New Castle,New Castle,IN,1852740
+35300,New Haven,New Haven,CT,0952000
+35340,New Iberia,New Iberia,LA,2254035
+35380,Metairie,Metairie,LA,2250115
+35380,New Orleans,New Orleans,LA,2255000
+35420,Dover,Dover,OH,3922456
+35420,New Philadelphia,New Philadelphia,OH,3955216
+35440,Newport,Newport,OR,4152450
+35460,Newport,Newport,TN,4753000
+35580,New Ulm,New Ulm,MN,2746042
+35620,Jersey City,Jersey City,NJ,3436000
+35620,Lakewood,Lakewood,NJ,3438580
+35620,Newark,Newark,NJ,3451000
+35620,New Brunswick,New Brunswick,NJ,3451210
+35620,New York,New York,NY,3651000
+35620,White Plains,White Plains,NY,3681677
+35660,Niles,Niles,MI,2657760
+35700,Nogales,Nogales,AZ,0449640
+35740,Norfolk,Norfolk,NE,3134615
+35820,North Platte,North Platte,NE,3135000
+35840,Bradenton,Bradenton,FL,1207950
+35840,Lakewood Ranch,Lakewood Ranch,FL,1239067
+35840,North Port,North Port,FL,1249675
+35840,Sarasota,Sarasota,FL,1264175
+35840,Venice,Venice,FL,1273900
+35900,North Wilkesboro,North Wilkesboro,NC,3747880
+35940,Norwalk,Norwalk,OH,3957302
+35980,New London,New London,CT,0952280
+35980,Norwich,Norwich,CT,0956200
+35980,Willimantic,Willimantic,CT,0985810
+36020,Oak Harbor,Oak Harbor,WA,5350360
+36100,Ocala,Ocala,FL,1250750
+36180,Ocean Pines,Ocean Pines,MD,2458275
+36220,Odessa,Odessa,TX,4853388
+36260,Ogden,Ogden,UT,4955980
+36340,Oil City,Oil City,PA,4256456
+36380,Okeechobee,Okeechobee,FL,1251200
+36420,Oklahoma City,Oklahoma City,OK,4055000
+36460,Olean,Olean,NY,3654716
+36500,Lacey,Lacey,WA,5336745
+36500,Olympia,Olympia,WA,5351300
+36500,Tumwater,Tumwater,WA,5372905
+36540,Omaha,Omaha,NE,3137000
+36580,Oneonta,Oneonta,NY,3654881
+36620,Ontario,Ontario,OR,4154900
+36660,Opelousas,Opelousas,LA,2258045
+36700,Orangeburg,Orangeburg,SC,4553080
+36740,Kissimmee,Kissimmee,FL,1236950
+36740,Orlando,Orlando,FL,1253000
+36740,Sanford,Sanford,FL,1263650
+36780,Neenah,Neenah,WI,5555750
+36780,Oshkosh,Oshkosh,WI,5560500
+36820,Oskaloosa,Oskaloosa,IA,1959925
+36830,Othello,Othello,WA,5352215
+36837,Ottawa,Ottawa,IL,1756926
+36840,Ottawa,Ottawa,KS,2053550
+36900,Ottumwa,Ottumwa,IA,1960465
+36940,Owatonna,Owatonna,MN,2749300
+36980,Owensboro,Owensboro,KY,2158620
+37020,Owosso,Owosso,MI,2661940
+37060,Oxford,Oxford,MS,2854840
+37100,Camarillo,Camarillo,CA,0610046
+37100,Oxnard,Oxnard,CA,0654652
+37100,San Buenaventura (Ventura),San Buenaventura (Ventura),CA,0665042
+37100,Thousand Oaks,Thousand Oaks,CA,0678582
+37120,Ozark,Ozark,AL,0157648
+37140,Paducah,Paducah,KY,2158836
+37220,Pahrump,Pahrump,NV,3253800
+37260,Palatka,Palatka,FL,1253875
+37300,Palestine,Palestine,TX,4854708
+37340,Melbourne,Melbourne,FL,1243975
+37340,Palm Bay,Palm Bay,FL,1254000
+37340,Titusville,Titusville,FL,1271900
+37420,Pampa,Pampa,TX,4854912
+37460,Panama City,Panama City,FL,1254700
+37460,Panama City Beach,Panama City Beach,FL,1254725
+37500,Paragould,Paragould,AR,0553390
+37540,Paris,Paris,TN,4756720
+37580,Paris,Paris,TX,4855080
+37620,Parkersburg,Parkersburg,WV,5462140
+37620,Vienna,Vienna,WV,5483500
+37740,Payson,Payson,AZ,0453700
+37800,Pella,Pella,IA,1962040
+37860,Brent,Brent,FL,1208300
+37860,Ferry Pass,Ferry Pass,FL,1222275
+37860,Pensacola,Pensacola,FL,1255925
+37900,Peoria,Peoria,IL,1759000
+37940,Peru,Peru,IN,1859328
+37950,Petoskey,Petoskey,MI,2663820
+37980,Wilmington,Wilmington,DE,1077580
+37980,Camden,Camden,NJ,3410000
+37980,Philadelphia,Philadelphia,PA,4260000
+38060,Casa Grande,Casa Grande,AZ,0410530
+38060,Chandler,Chandler,AZ,0412000
+38060,Gilbert,Gilbert,AZ,0427400
+38060,Mesa,Mesa,AZ,0446000
+38060,Phoenix,Phoenix,AZ,0455000
+38060,Scottsdale,Scottsdale,AZ,0465000
+38060,Tempe,Tempe,AZ,0473000
+38100,Picayune,Picayune,MS,2857160
+38180,Pierre,Pierre,SD,4649600
+38210,Pikeville,Pikeville,KY,2160852
+38220,Pine Bluff,Pine Bluff,AR,0555310
+38240,Pinehurst,Pinehurst,NC,3751940
+38240,Southern Pines,Southern Pines,NC,3763120
+38260,Pittsburg,Pittsburg,KS,2056025
+38300,Pittsburgh,Pittsburgh,PA,4261000
+38340,Pittsfield,Pittsfield,MA,2553960
+38380,Plainview,Plainview,TX,4857980
+38420,Platteville,Platteville,WI,5563250
+38460,Plattsburgh,Plattsburgh,NY,3658574
+38500,Plymouth,Plymouth,IN,1860822
+38540,Pocatello,Pocatello,ID,1664090
+38620,Ponca City,Ponca City,OK,4059850
+38660,Ponce,Ponce,PR,7263820
+38700,Pontiac,Pontiac,IL,1761015
+38740,Poplar Bluff,Poplar Bluff,MO,2959096
+38820,Port Angeles,Port Angeles,WA,5355365
+38860,Portland,Portland,ME,2360545
+38860,South Portland,South Portland,ME,2371990
+38900,Beaverton,Beaverton,OR,4105350
+38900,Hillsboro,Hillsboro,OR,4134100
+38900,Portland,Portland,OR,4159000
+38900,Tigard,Tigard,OR,4173650
+38900,Vancouver,Vancouver,WA,5374060
+38920,Port Lavaca,Port Lavaca,TX,4858916
+38940,Port St. Lucie,Port St. Lucie,FL,1258715
+39020,Portsmouth,Portsmouth,OH,3964304
+39040,Port Townsend,Port Townsend,WA,5355855
+39060,Pottsville,Pottsville,PA,4262432
+39150,Prescott,Prescott,AZ,0457380
+39150,Prescott Valley,Prescott Valley,AZ,0457450
+39220,Price,Price,UT,4962030
+39300,Providence,Providence,RI,4459000
+39300,Warwick,Warwick,RI,4474300
+39340,Lehi,Lehi,UT,4944320
+39340,Orem,Orem,UT,4957300
+39340,Provo,Provo,UT,4962470
+39380,Pueblo,Pueblo,CO,0862000
+39420,Pullman,Pullman,WA,5356625
+39460,Punta Gorda,Punta Gorda,FL,1259200
+39480,Putnam,Putnam,CT,0962640
+39500,Quincy,Quincy,IL,1762367
+39540,Mount Pleasant,Mount Pleasant,WI,5554875
+39540,Racine,Racine,WI,5566000
+39580,Cary,Cary,NC,3710740
+39580,Raleigh,Raleigh,NC,3755000
+39660,Rapid City,Rapid City,SD,4652980
+39700,Raymondville,Raymondville,TX,4860836
+39740,Reading,Reading,PA,4263624
+39780,Red Bluff,Red Bluff,CA,0659892
+39820,Redding,Redding,CA,0659920
+39860,Red Wing,Red Wing,MN,2753620
+39900,Reno,Reno,NV,3260600
+39940,Rexburg,Rexburg,ID,1667420
+39960,Rice Lake,Rice Lake,WI,5567350
+39980,Richmond,Richmond,IN,1864260
+40060,Richmond,Richmond,VA,5167000
+40080,Berea,Berea,KY,2105842
+40080,Richmond,Richmond,KY,2165226
+40090,Rifle,Rifle,CO,0864255
+40100,Rio Grande City,Rio Grande City,TX,4862168
+40100,Roma,Roma,TX,4863020
+40140,Chino,Chino,CA,0613210
+40140,Corona,Corona,CA,0616350
+40140,Ontario,Ontario,CA,0653896
+40140,Palm Desert,Palm Desert,CA,0655184
+40140,Redlands,Redlands,CA,0659962
+40140,Riverside,Riverside,CA,0662000
+40140,San Bernardino,San Bernardino,CA,0665000
+40140,Temecula,Temecula,CA,0678120
+40180,Riverton,Riverton,WY,5666220
+40220,Roanoke,Roanoke,VA,5168000
+40260,Roanoke Rapids,Roanoke Rapids,NC,3756900
+40300,Rochelle,Rochelle,IL,1764746
+40340,Rochester,Rochester,MN,2754880
+40380,Rochester,Rochester,NY,3663000
+40420,Rockford,Rockford,IL,1765000
+40460,Rockingham,Rockingham,NC,3757260
+40540,Rock Springs,Rock Springs,WY,5667235
+40580,Rocky Mount,Rocky Mount,NC,3757500
+40620,Rolla,Rolla,MO,2962912
+40660,Rome,Rome,GA,1366668
+40700,Roseburg,Roseburg,OR,4163650
+40740,Roswell,Roswell,NM,3564930
+40760,Ruidoso,Ruidoso,NM,3565210
+40770,Russellville,Russellville,AL,0167056
+40780,Russellville,Russellville,AR,0561670
+40820,Ruston,Ruston,LA,2266655
+40860,Rutland,Rutland,VT,5061225
+40900,Folsom,Folsom,CA,0624638
+40900,Rancho Cordova,Rancho Cordova,CA,0659444
+40900,Roseville,Roseville,CA,0662938
+40900,Sacramento,Sacramento,CA,0664000
+40900,West Sacramento,West Sacramento,CA,0684816
+40940,Safford,Safford,AZ,0462000
+40980,Saginaw,Saginaw,MI,2670520
+41060,St. Cloud,St. Cloud,MN,2756896
+41100,St. George,St. George,UT,4965330
+41140,St. Joseph,St. Joseph,MO,2964550
+41180,St. Charles,St. Charles,MO,2964082
+41180,St. Louis,St. Louis,MO,2965000
+41260,St. Marys,St. Marys,PA,4267344
+41400,Salem,Salem,OH,3969834
+41420,Salem,Salem,OR,4164900
+41460,Salina,Salina,KS,2062700
+41500,Salinas,Salinas,CA,0664224
+41540,Salisbury,Salisbury,MD,2469925
+41620,Murray,Murray,UT,4953230
+41620,Salt Lake City,Salt Lake City,UT,4967000
+41660,San Angelo,San Angelo,TX,4864472
+41700,New Braunfels,New Braunfels,TX,4850820
+41700,San Antonio,San Antonio,TX,4865000
+41740,Carlsbad,Carlsbad,CA,0611194
+41740,Chula Vista,Chula Vista,CA,0613392
+41740,Encinitas,Encinitas,CA,0622678
+41740,San Diego,San Diego,CA,0666000
+41760,Sandpoint,Sandpoint,ID,1672100
+41780,Sandusky,Sandusky,OH,3970380
+41820,Sanford,Sanford,NC,3759280
+41860,Berkeley,Berkeley,CA,0606000
+41860,Fremont,Fremont,CA,0626000
+41860,Livermore,Livermore,CA,0641992
+41860,Oakland,Oakland,CA,0653000
+41860,Pleasanton,Pleasanton,CA,0657792
+41860,Redwood City,Redwood City,CA,0660102
+41860,San Francisco,San Francisco,CA,0667000
+41860,San Mateo,San Mateo,CA,0668252
+41860,San Rafael,San Rafael,CA,0668364
+41860,San Ramon,San Ramon,CA,0668378
+41860,South San Francisco,South San Francisco,CA,0673262
+41860,Walnut Creek,Walnut Creek,CA,0683346
+41940,Cupertino,Cupertino,CA,0617610
+41940,Milpitas,Milpitas,CA,0647766
+41940,Mountain View,Mountain View,CA,0649670
+41940,Palo Alto,Palo Alto,CA,0655282
+41940,San Jose,San Jose,CA,0668000
+41940,Santa Clara,Santa Clara,CA,0669084
+41940,Sunnyvale,Sunnyvale,CA,0677000
+41980,Bayamón,Bayamón,PR,7206593
+41980,Caguas,Caguas,PR,7210334
+41980,Guaynabo,Guaynabo,PR,7232522
+41980,San Juan,San Juan,PR,7276770
+42020,El Paso de Robles (Paso Robles),El Paso de Robles (Paso Robles),CA,0622300
+42020,San Luis Obispo,San Luis Obispo,CA,0668154
+42100,Santa Cruz,Santa Cruz,CA,0669112
+42100,Watsonville,Watsonville,CA,0683668
+42140,Santa Fe,Santa Fe,NM,3570500
+42200,Santa Barbara,Santa Barbara,CA,0669070
+42200,Santa Maria,Santa Maria,CA,0669196
+42220,Petaluma,Petaluma,CA,0656784
+42220,Santa Rosa,Santa Rosa,CA,0670098
+42300,Sault Ste. Marie,Sault Ste. Marie,MI,2671740
+42340,Savannah,Savannah,GA,1369000
+42380,Sayre,Sayre,PA,4268096
+42420,Scottsbluff,Scottsbluff,NE,3144245
+42460,Scottsboro,Scottsboro,AL,0168736
+42540,Scranton,Scranton,PA,4269000
+42540,Wilkes-Barre,Wilkes-Barre,PA,4285152
+42580,Seaford,Seaford,DE,1064320
+42620,Searcy,Searcy,AR,0563020
+42660,Auburn,Auburn,WA,5303180
+42660,Bellevue,Bellevue,WA,5305210
+42660,Everett,Everett,WA,5322640
+42660,Kent,Kent,WA,5335415
+42660,Lakewood,Lakewood,WA,5338038
+42660,Redmond,Redmond,WA,5357535
+42660,Renton,Renton,WA,5357745
+42660,Seattle,Seattle,WA,5363000
+42660,Tacoma,Tacoma,WA,5370000
+42680,Sebastian,Sebastian,FL,1264825
+42680,Vero Beach,Vero Beach,FL,1274150
+42680,West Vero Corridor,West Vero Corridor,FL,1276937
+42700,Sebring,Sebring,FL,1264875
+42740,Sedalia,Sedalia,MO,2966440
+42780,Selinsgrove,Selinsgrove,PA,4269216
+42820,Selma,Selma,AL,0169120
+42860,Seneca,Seneca,SC,4565095
+42900,Seneca Falls,Seneca Falls,NY,3666322
+42940,Sevierville,Sevierville,TN,4767120
+42980,Seymour,Seymour,IN,1868832
+43020,Shawano,Shawano,WI,5572925
+43060,Shawnee,Shawnee,OK,4066800
+43100,Sheboygan,Sheboygan,WI,5572975
+43140,Kings Mountain,Kings Mountain,NC,3735880
+43140,Shelby,Shelby,NC,3761200
+43180,Shelbyville,Shelbyville,TN,4767760
+43220,Shelton,Shelton,WA,5363735
+43260,Sheridan,Sheridan,WY,5669845
+43300,Denison,Denison,TX,4819900
+43300,Sherman,Sherman,TX,4867496
+43320,Show Low,Show Low,AZ,0466470
+43340,Bossier City,Bossier City,LA,2208920
+43340,Shreveport,Shreveport,LA,2270000
+43380,Sidney,Sidney,OH,3972424
+43420,Douglas,Douglas,AZ,0420050
+43420,Sierra Vista,Sierra Vista,AZ,0466820
+43460,Sikeston,Sikeston,MO,2967790
+43500,Silver City,Silver City,NM,3573260
+43580,Sioux City,Sioux City,IA,1973335
+43620,Sioux Falls,Sioux Falls,SD,4659020
+43640,Covington,Covington,LA,2218125
+43640,Mandeville,Mandeville,LA,2248225
+43640,Slidell,Slidell,LA,2270805
+43660,Snyder,Snyder,TX,4868624
+43700,Somerset,Somerset,KY,2171688
+43740,Somerset,Somerset,PA,4271776
+43760,Sonora,Sonora,CA,0672674
+43780,Mishawaka,Mishawaka,IN,1849932
+43780,South Bend,South Bend,IN,1871000
+43890,Sparta,Sparta,WI,5575325
+43900,Spartanburg,Spartanburg,SC,4568290
+43940,Spearfish,Spearfish,SD,4660020
+43980,Spencer,Spencer,IA,1974280
+44020,Spirit Lake,Spirit Lake,IA,1974415
+44060,Spokane,Spokane,WA,5367000
+44060,Spokane Valley,Spokane Valley,WA,5367167
+44100,Springfield,Springfield,IL,1772000
+44140,Springfield,Springfield,MA,2567000
+44180,Springfield,Springfield,MO,2970000
+44220,Springfield,Springfield,OH,3974118
+44260,Starkville,Starkville,MS,2870240
+44300,State College,State College,PA,4273808
+44340,Statesboro,Statesboro,GA,1373256
+44420,Staunton,Staunton,VA,5175216
+44420,Stuarts Draft,Stuarts Draft,VA,5176272
+44460,Steamboat Springs,Steamboat Springs,CO,0873825
+44500,Stephenville,Stephenville,TX,4870208
+44540,Sterling,Sterling,CO,0873935
+44580,Sterling,Sterling,IL,1772546
+44620,Plover,Plover,WI,5563525
+44620,Stevens Point,Stevens Point,WI,5577200
+44660,Stillwater,Stillwater,OK,4070300
+44700,Lodi,Lodi,CA,0642202
+44700,Stockton,Stockton,CA,0675000
+44740,Storm Lake,Storm Lake,IA,1975630
+44780,Sturgis,Sturgis,MI,2676960
+44860,Sulphur Springs,Sulphur Springs,TX,4870904
+44900,Summerville,Summerville,GA,1374376
+44940,Sumter,Sumter,SC,4570405
+44980,Sunbury,Sunbury,PA,4275304
+45000,Susanville,Susanville,CA,0677364
+45020,Sweetwater,Sweetwater,TX,4871540
+45060,Syracuse,Syracuse,NY,3673000
+45140,Tahlequah,Tahlequah,OK,4072100
+45180,Sylacauga,Sylacauga,AL,0174352
+45180,Talladega,Talladega,AL,0174592
+45220,Tallahassee,Tallahassee,FL,1270600
+45300,Clearwater,Clearwater,FL,1212875
+45300,Largo,Largo,FL,1239425
+45300,Pinellas Park,Pinellas Park,FL,1256975
+45300,St. Petersburg,St. Petersburg,FL,1263000
+45300,Tampa,Tampa,FL,1271000
+45340,Taos,Taos,NM,3576200
+45380,Taylorville,Taylorville,IL,1774574
+45460,Terre Haute,Terre Haute,IN,1875428
+45500,Texarkana,Texarkana,TX,4872368
+45520,The Dalles,The Dalles,OR,4172950
+45580,Thomaston,Thomaston,GA,1376168
+45620,Thomasville,Thomasville,GA,1376224
+45660,Tiffin,Tiffin,OH,3976778
+45700,Tifton,Tifton,GA,1376476
+45740,Toccoa,Toccoa,GA,1376756
+45780,Toledo,Toledo,OH,3977000
+45820,Topeka,Topeka,KS,2071000
+45860,Torrington,Torrington,CT,0976500
+45880,Town of Pecos,Town of Pecos,TX,4873493
+45900,Traverse City,Traverse City,MI,2680340
+45940,Princeton,Princeton,NJ,3460900
+45940,Trenton,Trenton,NJ,3474000
+45980,Troy,Troy,AL,0176920
+46020,Grass Valley,Grass Valley,CA,0630798
+46020,Truckee,Truckee,CA,0680588
+46060,Tucson,Tucson,AZ,0477000
+46100,Manchester,Manchester,TN,4745500
+46100,Tullahoma,Tullahoma,TN,4775320
+46140,Tulsa,Tulsa,OK,4075000
+46180,Tupelo,Tupelo,MS,2874840
+46220,Tuscaloosa,Tuscaloosa,AL,0177256
+46300,Twin Falls,Twin Falls,ID,1682810
+46340,Tyler,Tyler,TX,4874144
+46380,Ukiah,Ukiah,CA,0681134
+46460,Union City,Union City,TN,4775940
+46500,Urbana,Urbana,OH,3979072
+46520,Urban Honolulu,Urban Honolulu,HI,1571550
+46540,Rome,Rome,NY,3663418
+46540,Utica,Utica,NY,3676540
+46580,Utuado,Utuado,PR,7284509
+46620,Uvalde,Uvalde,TX,4874588
+46660,Valdosta,Valdosta,GA,1378800
+46700,Vallejo,Vallejo,CA,0681666
+46780,Van Wert,Van Wert,OH,3979562
+46820,Vermillion,Vermillion,SD,4666700
+46860,Vernal,Vernal,UT,4980090
+46900,Vernon,Vernon,TX,4875308
+46980,Vicksburg,Vicksburg,MS,2876720
+47020,Victoria,Victoria,TX,4875428
+47080,Vidalia,Vidalia,GA,1379388
+47180,Vincennes,Vincennes,IN,1879208
+47220,Vineland,Vineland,NJ,3476070
+47240,Vineyard Haven,Vineyard Haven,MA,2571970
+47260,Chesapeake,Chesapeake,VA,5116000
+47260,Newport News,Newport News,VA,5156000
+47260,Norfolk,Norfolk,VA,5157000
+47260,Portsmouth,Portsmouth,VA,5164000
+47260,Virginia Beach,Virginia Beach,VA,5182000
+47300,Visalia,Visalia,CA,0682954
+47340,Wabash,Wabash,IN,1879370
+47380,Waco,Waco,TX,4876000
+47420,Wahpeton,Wahpeton,ND,3882660
+47460,Walla Walla,Walla Walla,WA,5375775
+47540,Wapakoneta,Wapakoneta,OH,3980766
+47580,Warner Robins,Warner Robins,GA,1380508
+47620,Warren,Warren,PA,4281000
+47660,Warrensburg,Warrensburg,MO,2977092
+47700,Warsaw,Warsaw,IN,1880306
+47780,Washington,Washington,IN,1880504
+47820,Washington,Washington,NC,3771220
+47900,Washington,Washington,DC,1150000
+47900,Bethesda,Bethesda,MD,2407125
+47900,Frederick,Frederick,MD,2430325
+47900,Gaithersburg,Gaithersburg,MD,2431175
+47900,North Bethesda,North Bethesda,MD,2456337
+47900,Rockville,Rockville,MD,2467675
+47900,Alexandria,Alexandria,VA,5101000
+47900,Arlington,Arlington,VA,5103000
+47900,McLean,McLean,VA,5148376
+47900,Reston,Reston,VA,5166672
+47920,Washington Court House,Washington Court House,OH,3981718
+47930,Shelton,Shelton,CT,0968100
+47930,Waterbury,Waterbury,CT,0980000
+47940,Cedar Falls,Cedar Falls,IA,1911755
+47940,Waterloo,Waterloo,IA,1982425
+47980,Watertown,Watertown,SD,4669300
+48020,Fort Atkinson,Fort Atkinson,WI,5526675
+48020,Watertown,Watertown,WI,5583975
+48060,Fort Drum,Fort Drum,NY,3626759
+48060,Watertown,Watertown,NY,3678608
+48140,Wausau,Wausau,WI,5584475
+48180,Waycross,Waycross,GA,1380956
+48200,Waynesville,Waynesville,NC,3771500
+48220,Weatherford,Weatherford,OK,4079450
+48260,Steubenville,Steubenville,OH,3974608
+48260,Weirton,Weirton,WV,5485156
+48300,East Wenatchee,East Wenatchee,WA,5320155
+48300,Wenatchee,Wenatchee,WA,5377105
+48460,West Plains,West Plains,MO,2978928
+48540,Wheeling,Wheeling,WV,5486452
+48580,Elkhorn,Elkhorn,WI,5523300
+48580,Whitewater,Whitewater,WI,5586925
+48620,Wichita,Wichita,KS,2079000
+48660,Wichita Falls,Wichita Falls,TX,4879000
+48680,The Villages,The Villages,FL,1271625
+48680,Wildwood,Wildwood,FL,1277675
+48700,Williamsport,Williamsport,PA,4285312
+48780,Williston,Williston,ND,3886220
+48820,Willmar,Willmar,MN,2770420
+48900,Wilmington,Wilmington,NC,3774440
+48940,Wilmington,Wilmington,OH,3985792
+48980,Wilson,Wilson,NC,3774540
+49010,Winchester,Winchester,TN,4781080
+49020,Winchester,Winchester,VA,5186720
+49080,Winnemucca,Winnemucca,NV,3284800
+49100,Winona,Winona,MN,2771032
+49180,Winston-Salem,Winston-Salem,NC,3775000
+49220,Marshfield,Marshfield,WI,5549675
+49220,Wisconsin Rapids,Wisconsin Rapids,WI,5588200
+49260,Woodward,Woodward,OK,4082150
+49300,Wooster,Wooster,OH,3986548
+49340,Worcester,Worcester,MA,2582000
+49380,Worthington,Worthington,MN,2771734
+49420,Yakima,Yakima,WA,5380010
+49460,Yankton,Yankton,SD,4673060
+49620,Hanover,Hanover,PA,4232448
+49620,York,York,PA,4287048
+49660,Warren,Warren,OH,3980892
+49660,Youngstown,Youngstown,OH,3988000
+49700,Yuba City,Yuba City,CA,0686972
+49740,Yuma,Yuma,AZ,0485540
+49780,Zanesville,Zanesville,OH,3988084
+49820,Zapata,Zapata,TX,4880716

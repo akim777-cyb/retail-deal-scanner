@@ -1,0 +1,34 @@
+{
+ "key": "retail_pe",
+ "name": "Retail PE buy box",
+ "as_of": "2026-11-21",
+ "buy_box": {
+  "max_price": 5000000,
+  "min_price": 0,
+  "min_sf": 0,
+  "include_kinds": ["Multi-Tenant Center", "Single-Tenant NNN", "Retail Building", "Retail / Mixed Use"],
+  "exclude_kinds": ["Land / Pad Site", "Business Sale"],
+  "unpriced_max_sf": 75000
+ },
+ "underwriting": {
+  "vacancy_credit_loss": 0.05,
+  "management_pct": 0.0,
+  "reserves_psf": 0.20,
+  "closing_costs_pct": 0.02,
+  "target_cap": 0.08,
+  "loan": {"ltv": 0.65, "rate": 0.0675, "amort_years": 25}
+ },
+ "first_pass": {"min_dscr": 1.25, "min_uw_cap": null, "min_occupancy": null},
+ "exports": {"resurface_price_drop": 0.05, "include_price_raises": false},
+ "where_each_number_comes_from": {
+  "max_price, property types": "Buy box set by Andrew 2026-11-21: up to $5,000,000; retail (strip centers, retail). The scanner also leaves out land, pad sites and business-only sales.",
+  "vacancy_credit_loss": "Estimate: a first-pass haircut on the broker's NOI, not a market figure.",
+  "management_pct": "Estimate: 0 because management is usually billed back to tenants in NNN retail; raise it for gross leases.",
+  "reserves_psf": "Estimate: placeholder for roof, parking lot and other capital reserves.",
+  "closing_costs_pct": "Estimate: placeholder.",
+  "loan.rate": "Verify: placeholder until a lender quote. Replace with the firm's current term sheet.",
+  "loan.ltv, loan.amort_years, first_pass.min_dscr": "Estimate: common bank terms for small retail, to replace with the firm's lender terms.",
+  "target_cap": "Estimate: the firm's going-in return hurdle, to set.",
+  "unpriced_max_sf": "Estimate: unpriced listings larger than this are assumed to ask more than the max price."
+ }
+}
