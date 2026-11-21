@@ -1,0 +1,2 @@
+{"cards": 89, "date": "2026-11-21", "event": "ingest", "market": "durham", "new": 84, "pages": ["city:Durham, NC", "county:37063", "county:37135", "county:37145"], "pages_opened": 2, "price_changes": 0}
+{"date": "2026-11-21", "event": "export", "file": "reports/durham/Durham-Chapel Hill, NC 2026-11-21 (new).xlsx", "first_pass": 1, "market": "durham", "rows": 22}

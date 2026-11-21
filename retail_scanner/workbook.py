@@ -19,12 +19,13 @@ LINK = Font(color="0563C1", underline="single")
 COLUMNS = [
     ("Listing", 34, "address", "link"), ("Change", 22, "change", "wrap"), ("Property", 34, "name", "wrap"),
     ("City", 16, "city", "text"), ("State", 7, "state", "text"), ("MSA", 30, "msa", "wrap"), ("Type", 18, "kind", "text"),
-    ("Ask", 13, "price", "money"), ("Cap Rate", 9, "cap_rate", "pct"), ("NOI", 13, "noi", "noi"),
+    ("Ask", 13, "price", "money"), ("Days on Market", 9, "days_on_market", "dom"), ("Cap Rate", 9, "cap_rate", "pct"),
+    ("NOI", 13, "noi", "noi"),
     ("Size (SF)", 10, "sf", "int"), ("Price / SF", 10, "price_psf", "psf"), ("Occupancy", 10, "occupancy", "pct0"),
     ("Tenants", 34, "tenants", "wrap"), ("UW NOI", 13, "uw_noi", "money"), ("UW Cap", 9, "uw_cap", "pct"),
     ("DSCR", 8, "dscr", "times"), ("Cash-on-Cash", 11, "coc", "pct"), ("Price at Target Cap", 14, "price_at_target", "money"),
     ("Lot (Acres)", 9, "lot_acres", "dec2"), ("Year Built", 9, "year_built", "int"), ("Lease Type", 12, "lease_type", "text"),
-    ("WALT (Yrs)", 9, "walt_years", "dec1"), ("Broker", 26, "broker", "wrap"), ("Days on Market", 9, "days_on_market", "int"),
+    ("WALT (Yrs)", 9, "walt_years", "dec1"), ("Broker", 26, "broker", "wrap"),
     ("First Seen", 11, "first_seen", "date"), ("Source", 22, "source", "wrap"),
 ]
 
@@ -41,6 +42,9 @@ def header_notes(profile: dict, market: dict) -> dict:
                   "of 'new only' exports unless the price drops.",
         "MSA": "Metro area from the Census Bureau (OMB July 2023 delineations), found from the ZIP code.",
         "Type": "From the listing's own type tags and title: Multi-Tenant Center, Single-Tenant NNN, Retail Building, Retail / Mixed Use.",
+        "Days on Market": "From the listing page (Crexi shows it there, not on its results cards), kept as a listed-on "
+                          "date so it stays current. 'N+' = listing page not opened yet: on the market at least N days, "
+                          "counted from the first day the scanner saw it. Blank = first scan and page not opened.",
         "Cap Rate": "The cap rate on the listing (the broker's figure, not checked).",
         "NOI": "The NOI on the listing. 'est.' = no NOI shown: the ask times the listed cap rate.",
         "Occupancy": "As shown on the listing. Blank = not shown.",
@@ -91,6 +95,8 @@ def _sheet(ws, rows, profile, market):
                 c.value, c.number_format = round(v, 3), PCT0
             elif kind == "times":
                 c.value, c.number_format = round(v, 2), TIMES
+            elif kind == "dom":
+                c.value, c.number_format = int(v), ('0"+"' if row.get("dom_floor") else "0")
             elif kind == "int":
                 c.value = int(v)
                 if key == "sf":

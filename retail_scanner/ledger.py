@@ -93,11 +93,11 @@ class Ledger:
         return "updated", merged["key"]
 
     # ---- exports and reviews -----------------------------------------------------------------
-    def mark_exported(self, keys, date: str, mode: str) -> None:
+    def mark_exported(self, keys, date: str, mode: str, market: str = "") -> None:
         for k in keys:
             x = self.items[k]
             x.setdefault("exports", []).append({"date": date, "price": x.get("price"), "confirmed": bool(x.get("confirmed")),
-                                                "status": x.get("status") or "Active", "mode": mode})
+                                                "status": x.get("status") or "Active", "mode": mode, "market": market})
 
     def review(self, key: str, status: str, note: str = "", date: str | None = None) -> dict:
         status = status.lower()
@@ -182,4 +182,4 @@ def change_since_export(x: dict, resurface_drop: float = 0.05, include_raises: b
         return f"Listing page read since export {last['date']}", True
     if price and lp and price > lp:
         return f"Price raised from ${lp:,.0f} (exported {last['date']})", include_raises
-    return f"Exported {last['date']}", False
+    return f"Exported {last['date']}" + (f" ({last['market']})" if last.get("market") else ""), False

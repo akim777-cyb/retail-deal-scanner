@@ -47,3 +47,16 @@ class GeoLookups(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Locate(unittest.TestCase):
+    def test_county_page_decides_when_the_zip_spans_counties(self):
+        from retail_scanner.screening import locate
+        geo = Geo()
+        market = {"county_set": {"37063", "37135"}}                  # Durham and Orange
+        x = {"zip": "27705", "city": "Durham", "state": "NC"}           # 27705: mostly Durham, also Orange
+        self.assertTrue(locate(x, market, geo, hint="37135")[0])
+        self.assertEqual(x["county_fips"], "37135")                     # read on the Orange County page
+        y = {"zip": "27705", "city": "Durham", "state": "NC"}
+        locate(y, market, geo)
+        self.assertEqual(y["county_fips"], "37063")                     # no page: the ZIP's main county

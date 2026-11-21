@@ -41,3 +41,14 @@ class CardLineRepairs(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Prompts(unittest.TestCase):
+    def test_results_prompt_carries_the_max_price(self):
+        import contextlib, io
+        from retail_scanner import cli
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            cli.main(["prompt", "--kind", "results"])
+        self.assertIn("asking price is above $5,000,000", buf.getvalue())
+        self.assertIn("SKIPPED=", buf.getvalue())

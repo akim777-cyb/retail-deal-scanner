@@ -18,7 +18,7 @@ _SUFFIX = {"st", "ave", "rd", "blvd", "pl", "dr", "ct", "ln", "ter", "pkwy", "hw
 DETAIL_FIELDS = {"kind", "subtype", "tenants", "tenant_count", "tenancy", "lease_type", "walt_years", "year_built",
                  "lot_acres", "broker", "brokerage", "listed_on", "days_on_market", "noi"}
 # Fields the ledger owns. A read never writes them directly.
-LEDGER_FIELDS = {"exports", "review", "price_history", "first_seen"}
+LEDGER_FIELDS = {"exports", "review", "price_history", "first_seen", "page_read_on", "page_read_price"}
 
 
 def clean(s) -> str:
@@ -295,7 +295,7 @@ def merge(old: dict | None, new: dict, seen: str) -> dict:
     for k, v in new.items():
         if k in LEDGER_FIELDS:
             continue
-        if k in ("flags", "notes", "sources", "pages"):
+        if k in ("flags", "notes", "sources", "pages", "markets"):
             out[k] = sorted(set(old.get(k) or []) | set(v or []))
         elif k == "confirmed":
             out[k] = bool(old.get(k)) or bool(v)

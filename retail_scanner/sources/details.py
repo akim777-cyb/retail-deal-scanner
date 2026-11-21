@@ -4,6 +4,7 @@
 """
 from __future__ import annotations
 import csv
+import datetime
 import os
 import re
 
@@ -61,13 +62,22 @@ def apply_detail(listing: dict, d: dict) -> dict:
                        ("brokerage", "brokerage"), ("subtype", "subtype")):
         if clean(d.get(field)):
             out[dst] = clean(d[field])
+    read_on = (clean(d.get("read_at")) or datetime.date.today().isoformat())[:10]
     listed = clean(d.get("listed"))
     if listed:
         dom = re.search(r"(\d+)\s*days?", listed, re.I)
+        when = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", listed) or re.search(r"(\d{4})-(\d{2})-(\d{2})", listed)
         if dom:
-            out["days_on_market"] = int(dom.group(1))
-        else:
-            out["listed_on"] = listed
+            out["listed_on"] = (datetime.date.fromisoformat(read_on) - datetime.timedelta(days=int(dom.group(1)))).isoformat()
+        elif when:
+            a, b, c = (int(g) for g in when.groups())
+            y, m, dd = (a, b, c) if a > 31 else (c + 2000 if c < 100 else c, a, b)
+            try:
+                out["listed_on"] = datetime.date(y, m, dd).isoformat()
+            except ValueError:
+                pass
+        out.pop("days_on_market", None)
+    out["page_read_on"] = read_on
     if clean(d.get("types")):
         out["types"] = clean(d["types"])
     if clean(d.get("status")):
@@ -82,7 +92,18 @@ def apply_detail(listing: dict, d: dict) -> dict:
     out["flags"] = sorted(set(out.get("flags") or []) | set(flags) | set(cflags))
     out["sources"] = sorted(set(out.get("sources") or []) | {f"{host} listing page"})
     out["confirmed"] = True
+    out["page_read_price"] = out.get("price")
     return out
+
+
+def needs_page_read(x: dict, as_of: str, max_age_days: int = 90) -> bool:
+    """Open a listing page only when it has never been read, its price moved since the read, or the read is old."""
+    if not x.get("confirmed") or not x.get("page_read_on"):
+        return True
+    if x.get("price") != x.get("page_read_price"):
+        return True
+    age = (datetime.date.fromisoformat(as_of) - datetime.date.fromisoformat(x["page_read_on"])).days
+    return age > max_age_days
 
 
 def stub_from_detail(d: dict) -> dict:

@@ -6,10 +6,12 @@ Usage (the lines come from a WebFetch or browser read of one Crexi results page,
       --source "<results page URL>" --page 1 << 'EOF_CARDS'
   main|name|street address|city|state|zip|asking price|property types|cap rate|building SF|occupancy|tagline|listing link
   ...
-  TOTAL=31; CARDS=51; NEXT=none
+  TOTAL=31; LISTED=22; SKIPPED=9; SUGGESTED=20; NEXT=none
   EOF_CARDS
 
-One card per line, 13 pipe-separated fields; the first is main or suggested. Unknown value = empty field.
+One card per line, 13 pipe-separated fields; the first is main (or suggested, which is dropped). Unknown value =
+empty field. SKIPPED counts the cards the reader was told to leave out (over the max price, first type Land or
+Business for Sale): they count toward the page being read in full but are not stored.
 """
 import argparse
 import csv
@@ -20,7 +22,7 @@ import sys
 
 FIELDS = ["market", "helper", "county", "page_id", "section", "name", "address", "city", "state", "zip", "price", "types",
           "cap_rate", "sf", "occupancy", "tagline", "listing_url", "source_url", "read_at"]
-COVERAGE = ["read_at", "page_id", "county", "source_url", "page", "total", "main", "suggested", "bad", "next"]
+COVERAGE = ["read_at", "page_id", "county", "source_url", "page", "total", "main", "suggested", "bad", "next", "skipped"]
 
 
 def split_line(line: str):
@@ -60,7 +62,7 @@ def main():
     page_id = a.page_id or f"county:{a.county}"
     os.makedirs(a.run_dir, exist_ok=True)
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    total, nxt, main_n, sugg_n, bad = "", "", 0, 0, 0
+    total, nxt, main_n, sugg_n, bad, skipped = "", "", 0, 0, 0, 0
     rows = []
     for raw in sys.stdin.read().splitlines():
         line = raw.strip()
@@ -71,6 +73,11 @@ def main():
             total = m.group(1).replace(",", "") if m else ""
             m = re.search(r"NEXT=\s*(\S+)", line, re.I)
             nxt = m.group(1).rstrip(";.") if m and m.group(1).lower() not in ("none", "none.", "none;") else ""
+            m = re.search(r"SKIPPED=\s*(\d+)", line, re.I)
+            skipped = int(m.group(1)) if m else 0
+            m = re.search(r"SUGGESTED=\s*(\d+)", line, re.I)
+            if m:
+                sugg_n += int(m.group(1))
             continue
         parts = split_line(line)
         if parts and parts[0].lower() == "section":
@@ -96,14 +103,15 @@ def main():
         w = csv.writer(f, delimiter="|")
         if new_cov:
             w.writerow(COVERAGE)
-        w.writerow([now, page_id, a.county, a.source, a.page, total, main_n, sugg_n, bad, nxt])
-    more = main_n >= a.page_size
+        w.writerow([now, page_id, a.county, a.source, a.page, total, main_n, sugg_n, bad, nxt, skipped])
+    on_page = main_n + skipped
+    more = on_page >= a.page_size
     hint = f"CONTINUE: read the next page ({nxt or 'add ?page=N'})" if more else "LAST PAGE for this search"
     check = ""
-    if total and not more and a.page == "1" and main_n != int(total):
-        check = f" | CHECK: {main_n} main cards but the page shows {total} results"
-    print(f"OK {a.helper} {page_id} page {a.page}: main {main_n}, suggested {sugg_n}, bad {bad}, total shown {total or '?'}"
-          f" -> {hint}{check}")
+    if total and not more and a.page == "1" and on_page != int(total):
+        check = f" | CHECK: {main_n} listed + {skipped} skipped but the page shows {total} results"
+    print(f"OK {a.helper} {page_id} page {a.page}: listed {main_n}, skipped {skipped}, suggested {sugg_n}, bad {bad}, "
+          f"total shown {total or '?'} -> {hint}{check}")
 
 
 if __name__ == "__main__":

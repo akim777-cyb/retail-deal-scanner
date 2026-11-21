@@ -1,5 +1,6 @@
 """One listing in, one Excel row out: where it is, whether it is inside the buy box, and the first-pass math."""
 from __future__ import annotations
+import datetime
 from urllib.parse import quote_plus
 
 from .engine import passes, underwrite
@@ -10,7 +11,9 @@ def locate(x: dict, market: dict, geo, hint: str = "") -> tuple[bool, str]:
     """Set county_fips and cbsa on a listing. Returns (inside the market, why not)."""
     counties, flags = geo.counties_for(x.get("zip"), x.get("city"), x.get("state"))
     inside = [c for c in counties if c in market["county_set"]]
-    if inside:
+    if hint and hint in inside:
+        x["county_fips"] = hint                      # the ZIP spans counties: the county page that listed it decides
+    elif inside:
         x["county_fips"] = inside[0]
     elif not counties and hint in market["county_set"]:
         x["county_fips"] = hint
@@ -55,7 +58,25 @@ def search_link(x: dict) -> str:
     return "https://www.google.com/search?q=" + quote_plus(q)
 
 
-def evaluate(x: dict, profile: dict, geo) -> dict:
+def days_on_market(x: dict, as_of: str) -> tuple[int | None, bool]:
+    """(days, is_a_floor). From the listed-on date a listing page gave (stays current without a re-read); else days
+    since the scanner first saw it, which is only a floor ('N+'); else unknown."""
+    day = datetime.date.fromisoformat(as_of)
+    if x.get("listed_on"):
+        try:
+            return max((day - datetime.date.fromisoformat(x["listed_on"])).days, 0), False
+        except ValueError:
+            pass
+    if x.get("days_on_market") is not None:
+        return int(x["days_on_market"]), False
+    if x.get("first_seen") and x["first_seen"] < as_of:
+        return (day - datetime.date.fromisoformat(x["first_seen"])).days, True
+    return None, False
+
+
+def evaluate(x: dict, profile: dict, geo, as_of: str | None = None) -> dict:
+    as_of = as_of or datetime.date.today().isoformat()
+    dom, dom_floor = days_on_market(x, as_of)
     uw = underwrite(x.get("price"), profile["underwriting"], noi=x.get("noi"), cap=x.get("cap_rate"), sf=x.get("sf"))
     reasons = buy_box(x, profile)
     in_box = not reasons
@@ -89,7 +110,7 @@ def evaluate(x: dict, profile: dict, geo) -> dict:
         "uw_noi": uw["uw_noi"], "uw_cap": uw["uw_cap"], "dscr": uw["dscr"], "coc": uw["coc"],
         "price_at_target": uw["price_at_target"], "lot_acres": x.get("lot_acres"), "year_built": x.get("year_built"),
         "lease_type": x.get("lease_type"), "walt_years": x.get("walt_years"), "broker": broker,
-        "days_on_market": x.get("days_on_market"), "first_seen": x.get("first_seen"), "source": source,
+        "days_on_market": dom, "dom_floor": dom_floor, "first_seen": x.get("first_seen"), "source": source,
         "in_box": in_box, "reasons_out": reasons, "first_pass": first, "fails": fails, "notes": notes,
         "confirmed": bool(x.get("confirmed")), "status": x.get("status"), "change": "",
     }

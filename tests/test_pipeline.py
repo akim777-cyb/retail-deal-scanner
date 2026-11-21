@@ -2,6 +2,7 @@
 import contextlib
 import io
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -57,12 +58,12 @@ class Pipeline(unittest.TestCase):
         run("new-market", "--key", "durham", "--cbsa", "20500")
         d = os.path.join(self.home, "runs", "1")
         out = add_cards(d, "durham", "37063", read(FIXTURE), DURHAM_PAGE)
-        self.assertIn("main 26, suggested 20, bad 0, total shown 26 -> LAST PAGE", out)
+        self.assertIn("listed 26, skipped 0, suggested 20, bad 0, total shown 26 -> LAST PAGE", out)
         run("ingest", "--market", "durham", "--run-dir", d, "--seen", "2026-11-21")
 
     def test_durham_read_to_excel_and_only_changes_after(self):
         self.durham()
-        ledger = [json.loads(l) for l in read(os.path.join(self.home, "data", "ledger", "durham.jsonl")).splitlines()]
+        ledger = [json.loads(l) for l in read(os.path.join(self.home, "data", "ledger", "deals.jsonl")).splitlines()]
         self.assertEqual(len(ledger), 26)                       # every main card, the portfolio kept apart
         x1 = os.path.join(self.home, "first.xlsx")
         report = run("build", "--market", "durham", "--out", x1)
@@ -156,12 +157,12 @@ class Pipeline(unittest.TestCase):
         page = ("Active|Retail|Strip Center|$1,500,000|7.81%|$117,150|11,918|1.1|1986|100%|Multiple|3|"
                 "Dollar General; Subway; H&R Block|NNN|4.2|Jane Doe|Example Realty|45 days|\nNOTE: three national tenants\n")
         p = subprocess.run([sys.executable, os.path.join(REPO, "tools", "add_details.py"), "--run-dir", d, "--address",
-                            "3950 Linden Ave", "--zip", "45432", "--url", "https://www.crexi.com/properties/123456/ohio-3950-linden"],
-                           input=page, capture_output=True, text=True)
+                            "3950 Linden Ave", "--zip", "45432", "--url", "https://www.crexi.com/properties/123456/ohio-3950-linden",
+                            "--read-on", "2026-11-22"], input=page, capture_output=True, text=True)
         self.assertEqual(p.returncode, 0, p.stdout + p.stderr)
         run("ingest", "--market", "dayton", "--run-dir", d, "--seen", "2026-11-22")
         x2 = os.path.join(self.home, "dayton2.xlsx")
-        run("build", "--market", "dayton", "--out", x2)
+        run("build", "--market", "dayton", "--out", x2, "--as-of", "2026-11-22")
         head, rows, ws = rows_of(x2, "First Pass")
         r = rows[0]
         self.assertTrue(r["Change"].startswith("Listing page read since export"))
@@ -171,8 +172,87 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(ws["A2"].hyperlink.target, "https://www.crexi.com/properties/123456/ohio-3950-linden")
         self.assertEqual(r["Broker"], "Jane Doe / Example Realty")
         self.assertEqual(r["WALT (Yrs)"], 4.2)
-        self.assertEqual(r["Days on Market"], 45)
+        self.assertEqual(r["Days on Market"], 45)                     # 45 days on market on the page read 11/22
+        self.assertEqual(ws.cell(2, head.index("Days on Market") + 1).number_format, "0")
+        # read at today's price: not opened again; a price cut puts it back on the list
+        self.assertIn("0 of 0 listing pages worth opening", run("todo", "--market", "dayton", "--as-of", "2026-11-23"))
+        d2 = os.path.join(self.home, "runs", "d2")
+        add_cards(d2, "dayton", "39113", "main|Fully Leased, Newly Renovated 3 Tenant Center - Retail|3950 Linden Ave|Dayton|OH|"
+                  "45432|$1,400,000|Retail|8.37%|11,918 SqFt|Fully Leased||\nTOTAL=1; CARDS=1; NEXT=none\n",
+                  "https://www.crexi.com/properties/OH/Montgomery_County/Retail")
+        run("ingest", "--market", "dayton", "--run-dir", d2, "--seen", "2026-12-02")
+        self.assertIn("3950 Linden Ave|Dayton|OH|45432|First Pass", run("todo", "--market", "dayton", "--as-of", "2026-12-02"))
+        x3 = os.path.join(self.home, "dayton3.xlsx")
+        run("build", "--market", "dayton", "--out", x3, "--as-of", "2026-12-02")
+        _, rows3, _ = rows_of(x3, "First Pass")
+        self.assertEqual(rows3[0]["Days on Market"], 55)                # still counted from the listed-on date
 
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Efficiency(unittest.TestCase):
+    """The running log: one ledger for every market, pages not re-read too soon, the Deal Log workbook."""
+
+    def setUp(self):
+        self.home = tempfile.mkdtemp()
+        shutil.copytree(os.path.join(REPO, "profiles"), os.path.join(self.home, "profiles"))
+        self.saved_root, cli.ROOT = cli.ROOT, self.home
+        run("new-market", "--key", "durham", "--cbsa", "20500")
+        self.run_dir = os.path.join(self.home, "runs", "1")
+        add_cards(self.run_dir, "durham", "37063", read(FIXTURE), DURHAM_PAGE)
+        run("ingest", "--market", "durham", "--run-dir", self.run_dir, "--seen", "2026-11-21")
+
+    def tearDown(self):
+        cli.ROOT = self.saved_root
+        shutil.rmtree(self.home, ignore_errors=True)
+
+    def test_a_deal_exported_in_one_market_is_not_exported_again_in_another(self):
+        run("new-market", "--key", "durham_county", "--counties", "Durham County, NC", "--name", "Durham County only")
+        first = run("build", "--market", "durham", "--out", os.path.join(self.home, "a.xlsx"))
+        exported = int(re.search(r"\| in the buy box \| (\d+) \|", first).group(1))
+        self.assertGreater(exported, 0)
+        out = run("build", "--market", "durham_county", "--out", os.path.join(self.home, "b.xlsx"))
+        self.assertIn("Nothing new or changed", out)
+        self.assertIn(f"| already exported, unchanged | {exported} |", out)
+
+    def test_due_pages_and_skipped_cards(self):
+        out = run("due", "--market", "durham", "--as-of", "2026-11-22")
+        self.assertIn("5 of 6 pages due", out)
+        self.assertNotIn("county:37063|", out)                          # read yesterday, in full
+        self.assertIn("6 of 6 pages due", run("due", "--market", "durham", "--as-of", "2026-11-22", "--all"))
+        self.assertIn("county:37063|", run("due", "--market", "durham", "--as-of", "2026-12-01"))   # a week old
+        # a reader told to skip cards over $5M and land-only cards still counts the page as read in full
+        d = os.path.join(self.home, "runs", "2")
+        lines = ("main|Kress Building|101 & 103 W Main St|Durham|NC|27701|$1,171,000|Retail, Office||4,574|||\n"
+                 "TOTAL=3; LISTED=1; SKIPPED=2; SUGGESTED=20; NEXT=none\n")
+        p = subprocess.run([sys.executable, os.path.join(REPO, "tools", "add_cards.py"), "--run-dir", d, "--market", "durham",
+                            "--county", "37135", "--page-id", "county:37135", "--source", "x"], input=lines,
+                           capture_output=True, text=True)
+        self.assertIn("listed 1, skipped 2, suggested 20", p.stdout)
+        out = run("ingest", "--market", "durham", "--run-dir", d, "--seen", "2026-11-22")
+        self.assertIn("county:37135: 1 listed + 2 skipped of 3 shown, 1 page(s), complete", out)
+
+    def test_deal_log_lists_every_deal_and_every_scan(self):
+        run("build", "--market", "durham", "--out", os.path.join(self.home, "a.xlsx"), "--as-of", "2026-11-21")
+        wb = load_workbook(os.path.join(self.home, "reports", "Deal Log.xlsx"))
+        self.assertEqual(wb.sheetnames, ["Deals", "Scans"])
+        head = [c.value for c in wb["Deals"][1]]
+        deals = [dict(zip(head, [c.value for c in r])) for r in wb["Deals"].iter_rows(min_row=2)]
+        self.assertEqual(len(deals), 26)                               # every listing analyzed, in or out of the box
+        screens = {d["Screen"] for d in deals}
+        self.assertIn("Out: land / pad site", screens)
+        self.assertTrue(any(s.startswith("In buy box") for s in screens))
+        star = next(d for d in deals if d["Listing"] == "4100 Durham-Chapel Hill Blvd")
+        self.assertEqual(star["Exported"], "2026-11-21 (durham)")
+        self.assertEqual(star["Markets"], "durham")
+        events = [[c.value for c in r][2] for r in wb["Scans"].iter_rows(min_row=2)]
+        self.assertEqual(events, ["ingest", "export"])
+        # the floor format: a card-only listing first seen 11/21 shows 10+ on 12/1
+        x = os.path.join(self.home, "full.xlsx")
+        run("build", "--market", "durham", "--mode", "full", "--no-mark", "--out", x, "--as-of", "2026-12-01")
+        head, rows, ws = rows_of(x, "All Properties")
+        i = next(n for n, r in enumerate(rows, 2) if r["Listing"] == "4100 Durham-Chapel Hill Blvd")
+        cell = ws.cell(i, head.index("Days on Market") + 1)
+        self.assertEqual((cell.value, cell.number_format), (10, '0"+"'))

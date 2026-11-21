@@ -35,6 +35,7 @@ def main():
     ap.add_argument("--name", default="")
     ap.add_argument("--url", required=True)
     ap.add_argument("--helper", default="D1")
+    ap.add_argument("--read-on", help="YYYY-MM-DD the page was read, when not today (days on market counts from it)")
     a = ap.parse_args()
     lines = [l.strip() for l in sys.stdin.read().splitlines() if l.strip()]
     data = [l for l in lines if not l.upper().startswith("NOTE:")]
@@ -50,8 +51,9 @@ def main():
         print(f"BAD: need {len(PAGE)} fields, got {len(parts)}: {data[0][:160]}")
         sys.exit(1)
     row = dict(zip(PAGE, parts))
+    read_at = (a.read_on + "T12:00:00Z") if a.read_on else datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
     row.update(name=a.name, address=a.address, city=a.city, state=a.state, zip=a.zip, listing_url=a.url.strip(),
-               helper=a.helper, note=note, read_at=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+               helper=a.helper, note=note, read_at=read_at)
     os.makedirs(a.run_dir, exist_ok=True)
     path = os.path.join(a.run_dir, "details.csv")
     with open(path, "a", newline="", encoding="utf-8") as f:
